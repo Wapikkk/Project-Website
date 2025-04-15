@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ asset('customer.css') }}">
-    <title>Document</title>
+    <link rel="icon" href="{{ asset ('img/logo_aloutdoor.png') }}" type="image/x-icon">
+    <title>Aloutdoor.id</title>
+
+    {{-- stylesheet --}}
+    <link rel="stylesheet" href="{{ asset ('css_new/css_customer.css') }}">
 </head>
 <body>
-    <h1>Coba</h1>
+    <div id="preloader">
+        
+    </div>
+
+    <h1>hello</h1>
+
+    <script src="{{ asset ('js_new/js_customer.js') }}"></script>
 </body>
 </html>
