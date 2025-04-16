@@ -85,8 +85,8 @@
                                 <ul class="navigation clearfix">
                                     <li class="current dropdown"><a href="#beranda">Beranda</a>
                                         <ul>
-                                            <li><a href="#tentang-kami">Tentang Kami</a></li>
                                             <li><a href="#penawaran-spesial">Penawaran Spesial</a></li>
+                                            <li><a href="#tentang-kami">Tentang Kami</a></li>
                                             <li><a href="#testimoni">Testimoni</a></li>
                                         </ul>
                                     </li> 
@@ -99,7 +99,7 @@
                                     </li>
                                     <li class="dropdown"><a href="index.html">Pages</a></li>
                                     <li class="dropdown"><a href="index.html">Elements</a></li>
-                                    <li class="dropdown"><a href="index.html">Blog</a></li>
+                                    <li class="dropdown"><a href="index.html">Rekomendasi Wisata</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -164,10 +164,9 @@
             </nav>
         </div><!-- End Mobile Menu -->
 
-
+        
         <!-- banner-section -->
         <section class="banner-section centred">
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-1.png);"></div>
             <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
                 <div class="slide-item">
                     <div class="image-layer" style="background-image:url({{ asset ('images/sunset_bromo.jpg') }})"></div>
@@ -183,69 +182,14 @@
                     <div class="image-layer" style="background-image:url({{ asset ('images/sunset_semeru.jpg') }})"></div>
                     <div class="auto-container">
                         <div class="content-box">
-                            <div class="shape" style="background-image: url(assets/images/shape/shape-2.png);"></div>
                             <span>Temukan Keajaiban di Setiap Sudut Alam</span>
                             <h2>Setiap Langkah <br />Adalah Cerita Baru</h2>
                         </div>  
                     </div>
                 </div>
             </div>
-            <div class="media-partner">
-                <ul class="media-links clearfix">
-                    <li><h6>Follow on social media</h6></li>
-                    <li><a href="https://www.tiktok.com/@aloutdoor.id?_t=ZS-8vUno9ZOUcC&_r=1"></a></li>
-                    <li><a href="https://www.instagram.com/aloutdoor.id?igsh=MWM0NXR1dDZ1ZHF0eg=="><i class="fab fa-instagram"></i></a></li>
-                </ul>
-            </div>
         </section>
         <!-- banner-section end -->
-
-
-        <!-- about-section -->
-        <section class="about-section bg-color-1" id="tentang-kami">
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-4.png);"></div>
-            <div class="auto-container">
-                <div class="row clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                        <div class="image_block_one">
-                            <div class="image-box">
-                                <iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7902.6823387202185!2d112.618417!3d-7.96365!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788281bdd08839%3A0xc915f268bffa831f!2sUniversitas%20Negeri%20Malang!5e0!3m2!1sid!2sid!4v1744709605415!5m2!1sid!2sid"
-                                    width="100%" 
-                                    height="300" 
-                                    style="border:0; border-radius: 10px;" 
-                                    allowfullscreen="" 
-                                    loading="lazy" 
-                                    referrerpolicy="no-referrer-when-downgrade">
-                                </iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                        <div class="content_block_one">
-                            <div class="content-box">
-                                <div class="sec-title">
-                                    <span class="sub-title">Tentang Kami</span>
-                                    <h2>Selamat Datang di Aloutdoor.id</h2>
-                                </div>
-                                <div class="text">
-                                    <div class="icon-box"><i class="flaticon-camping"></i></div>
-                                    <p>Siap untuk petualangan seru? Hanya di Aloutdoor.id! Di sini kamu bisa sewa alat camping, 
-                                        ikut opentrip ke Bromo, atau seru-seruan naik motor trail. Semua serba gampang, 
-                                        aman, dan pastinya bikin petualangan kamu makin berkesan!.</p>
-                                </div>
-                                <ul class="list-style-one clearfix">
-                                    <li>Persewaan alat-alat outdoor.</li>
-                                    <li>Private Trip & Open Trip Bromo.</li>
-                                    <li>Persewaan motor trail.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- about-section end -->
-
 
         <!-- activities-section -->
         <section class="activities-section sec-pad" id="penawaran-spesial">
@@ -326,24 +270,50 @@
         </section>
         <!-- activities-section end -->
 
-
-        <!-- video-section -->
-        <section class="video-section">
-            <div class="bg-layer parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/images/background/video-bg.jpg);"></div>
+        <!-- about-section -->
+        <section class="about-section bg-color-1" id="tentang-kami">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-4.png);"></div>
             <div class="auto-container">
-                <div class="inner-box">
-                    <div class="sec-title light">
-                        <span class="sub-title">Cmapning That’s Right For You</span>
-                        <h2>Get Now Memorable Wonderful Outdoor Experiences</h2>
+                <div class="row clearfix">
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                        <div class="image_block_one">
+                            <div class="image-box">
+                                <iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7902.6823387202185!2d112.618417!3d-7.96365!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788281bdd08839%3A0xc915f268bffa831f!2sUniversitas%20Negeri%20Malang!5e0!3m2!1sid!2sid!4v1744709605415!5m2!1sid!2sid"
+                                    width="100%" 
+                                    height="300" 
+                                    style="border:0; border-radius: 10px;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
                     </div>
-                    <div class="video-btn">
-                        <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="lightbox-image" data-caption="" style="background-image: url(assets/images/shape/shape-7.png);"><i class="fas fa-play"></i></a>
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                        <div class="content_block_one">
+                            <div class="content-box">
+                                <div class="sec-title">
+                                    <span class="sub-title">Tentang Kami</span>
+                                    <h2>Selamat Datang di Aloutdoor.id</h2>
+                                </div>
+                                <div class="text">
+                                    <div class="icon-box"><i class="flaticon-camping"></i></div>
+                                    <p>Siap untuk petualangan seru? Hanya di Aloutdoor.id! Di sini kamu bisa sewa alat camping, 
+                                        ikut opentrip ke Bromo, atau seru-seruan naik motor trail. Semua serba gampang, 
+                                        aman, dan pastinya bikin petualangan kamu makin berkesan!.</p>
+                                </div>
+                                <ul class="list-style-one clearfix">
+                                    <li>Persewaan alat-alat outdoor.</li>
+                                    <li>Private Trip & Open Trip Bromo.</li>
+                                    <li>Persewaan motor trail.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- video-section end -->
-
+        <!-- about-section end -->
 
         <!-- chooseus-section -->
         <section class="chooseus-section bg-color-1">
@@ -608,7 +578,7 @@
 
 
         <!-- main-footer -->
-        <section id="kontak-kami">
+        <section id="">
             <footer class="main-footer">
                 <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-13.png);"></div>
                 <div class="auto-container">
