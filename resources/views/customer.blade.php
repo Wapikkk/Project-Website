@@ -10,8 +10,33 @@
     <link rel="stylesheet" href="{{ asset ('css_new/css_customer.css') }}">
 </head>
 <body>
-    <div id="preloader">
-        
+    <div class="preloader">
+        <div class="boxes">
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
     </div>
 
     <h1>hello</h1>
