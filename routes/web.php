@@ -13,3 +13,7 @@ Route::get('/customer', function() {
 Route::get('/home', function(){
     return view('home');
 });
+
+Route::get('/rekomendasi-wisata', function(){
+    return view('rekomendasi-wisata');
+});

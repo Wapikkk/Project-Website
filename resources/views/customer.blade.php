@@ -40,6 +40,7 @@
     </div>
 
     <h1>hello</h1>
+    
 
     <script src="{{ asset ('js_new/js_customer.js') }}"></script>
 </body>

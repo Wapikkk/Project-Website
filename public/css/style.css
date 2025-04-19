@@ -67,6 +67,10 @@
 
  ***/
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size:16px;
   color:#7c6f68;

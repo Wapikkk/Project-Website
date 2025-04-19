@@ -69,9 +69,6 @@
         <!-- main header -->
         <header class="main-header header-style-one" id="beranda">
             <div class="header-lower">
-                <div class="logo-box">
-                    <figure class="logo"><a href="index.html"><img src="" alt=""></a></figure>
-                </div>
                 <div class="outer-box">
                     <div class="menu-area">
                         <!--Mobile Navigation Toggler-->
@@ -97,9 +94,8 @@
                                             <li><a href="adventure.html">Katalog Paket</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="index.html">Pages</a></li>
-                                    <li class="dropdown"><a href="index.html">Elements</a></li>
-                                    <li class="dropdown"><a href="index.html">Rekomendasi Wisata</a></li>
+                                    <li class="dropdown"><a href="index.html">Informasi Pemesanan</a></li>
+                                    <li class="dropdown"><a href="{{ url('/rekomendasi-wisata') }}">Rekomendasi Wisata</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -191,7 +187,7 @@
         </section>
         <!-- banner-section end -->
 
-        <!-- activities-section -->
+        <!-- penawaran-spesial -->
         <section class="activities-section sec-pad" id="penawaran-spesial">
             <div class="auto-container">
                 <div class="upper-box centred">
@@ -268,7 +264,7 @@
                 </div>
             </div>
         </section>
-        <!-- activities-section end -->
+        <!-- penawaran-spesial end -->
 
         <!-- about-section -->
         <section class="about-section bg-color-1" id="tentang-kami">
@@ -278,7 +274,7 @@
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div class="image_block_one">
                             <div class="image-box">
-                                <iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7902.6823387202185!2d112.618417!3d-7.96365!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788281bdd08839%3A0xc915f268bffa831f!2sUniversitas%20Negeri%20Malang!5e0!3m2!1sid!2sid!4v1744709605415!5m2!1sid!2sid"
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7902.6823387202185!2d112.618417!3d-7.96365!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788281bdd08839%3A0xc915f268bffa831f!2sUniversitas%20Negeri%20Malang!5e0!3m2!1sid!2sid!4v1744709605415!5m2!1sid!2sid"
                                     width="100%" 
                                     height="300" 
                                     style="border:0; border-radius: 10px;" 
@@ -313,103 +309,10 @@
                 </div>
             </div>
         </section>
-        <!-- about-section end -->
-
-        <!-- chooseus-section -->
-        <section class="chooseus-section bg-color-1">
-            <div class="auto-container">
-                <div class="row clearfix">
-                    <div class="col-lg-8 col-md-12 col-sm-12 content-column">
-                        <div class="content-inner">
-                            <div class="image-box">
-                                <div class="row clearfix">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                        <figure class="image"><img src="assets/images/resource/chooseus-1.jpg" alt=""></figure>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                        <figure class="image"><img src="assets/images/resource/chooseus-2.jpg" alt=""></figure>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="inner-box">
-                                <div class="sec-title">
-                                    <span class="sub-title">Our Benefits</span>
-                                    <h2>Why Choose Us</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                                </div>
-                                <div class="inner">
-                                    <ul class="list clearfix">
-                                        <li>Private Cottages</li>
-                                        <li>Compact Trailers</li>
-                                        <li>Tents on Rent</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
-                        <div class="content_block_two">
-                            <div class="content-box">
-                                <div class="upper">
-                                    <span>Spend a Happy Weekend</span>
-                                    <p>Aliq is notm hendr erit a augue insu image pellen tes. Lorem ipsum dolor sit amet.</p>
-                                    <a href="index.html" class="theme-btn btn-one">Register now</a>
-                                </div>
-                                <figure class="image"><img src="assets/images/resource/chooseus-3.jpg" alt=""></figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- chooseus-section end -->
+        <!-- tentang-kami end -->
 
 
-        <!-- gallery-section -->
-        <section class="gallery-section centred">
-            <div class="auto-container">
-                <div class="sec-title">
-                    <span class="sub-title">Our Photoshots</span>
-                    <h2>Our Gallery</h2>
-                </div>
-                <div class="sortable-masonry">
-                    <div class="items-container row clearfix">
-                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column">
-                            <div class="gallery-block-one">
-                                <div class="inner-box">
-                                    <figure class="image-box"><a href="assets/images/gallery/gallery-1.jpg" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/gallery/gallery-1.jpg" alt=""></a></figure>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 masonry-item small-column">
-                            <div class="gallery-block-one">
-                                <div class="inner-box">
-                                    <figure class="image-box"><a href="assets/images/gallery/gallery-2.jpg" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/gallery/gallery-2.jpg" alt=""></a></figure>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column">
-                            <div class="gallery-block-one">
-                                <div class="inner-box">
-                                    <figure class="image-box"><a href="assets/images/gallery/gallery-3.jpg" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/gallery/gallery-3.jpg" alt=""></a></figure>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column">
-                            <div class="gallery-block-one">
-                                <div class="inner-box">
-                                    <figure class="image-box"><a href="assets/images/gallery/gallery-4.jpg" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/gallery/gallery-4.jpg" alt=""></a></figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- gallery-section end -->
-
-
-        <!-- testimonial-section -->
+        <!-- testimoni -->
         <section class="testimonial-section bg-color-2" id="testimoni">
             <div class="outer-container clearfix">
                 <div class="testimonial-inner pull-left">
@@ -497,182 +400,7 @@
                 </div>
             </div>
         </section>
-        <!-- testimonial-section end -->
-
-
-        <!-- news-section -->
-        <section class="news-section sec-pad">
-            <div class="auto-container">
-                <div class="sec-title centred">
-                    <span class="sub-title">What’s Happening</span>
-                    <h2>News & Articles</h2>
-                </div>
-                <div class="row clearfix">
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news-1.jpg" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">20 oct, 2021</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">2 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Get Ready for the Summer Camp</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news-2.jpg" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">19 oct, 2021</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">5 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Duis Laoreet Cursus Justo, sed</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news-3.jpg" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">18 oct, 2021</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">4 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Morbi nec Finibus mi Cras Risus</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- news-section end -->
-
-
-        <!-- client-section -->
-        <section class="client-section">
-            <div class="auto-container">
-                <div class="title-text centred">
-                    <span>Meet the partners</span>
-                </div>
-                <div class="five-item-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
-                    <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-1.png" alt=""></a></figure>
-                    <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-2.png" alt=""></a></figure>
-                    <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-3.png" alt=""></a></figure>
-                    <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-4.png" alt=""></a></figure>
-                    <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-5.png" alt=""></a></figure>
-                </div>
-            </div>
-        </section>
-        <!-- client-section end -->
-
-
-        <!-- main-footer -->
-        <section id="">
-            <footer class="main-footer">
-                <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-13.png);"></div>
-                <div class="auto-container">
-                    <div class="footer-top">
-                        <div class="top-inner">
-                            <div class="text">
-                                <h5>Send Email</h5>
-                                <h3><a href="mailto:needhelp@company.com">needhelp@company.com</a></h3>
-                            </div>
-                            <figure class="footer-logo"><a href="index.html"><img src="assets/images/footer-logo.png" alt=""></a></figure>
-                            <div class="text">
-                                <h5>Call Anytime</h5>
-                                <h3><a href="https://wa.me/+62889-8906-1400">+62 889-8906-1400</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="widget-section">
-                        <div class="row clearfix">
-                            <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
-                                <div class="footer-widget links-widget">
-                                    <div class="widget-title">
-                                        <h4>Explore</h4>
-                                    </div>
-                                    <div class="widget-content">
-                                        <ul class="links-list clearfix">
-                                            <li><a href="index.html">Meet Our Team</a></li>
-                                            <li><a href="index.html">What We Do</a></li>
-                                            <li><a href="index.html">Latest News</a></li>
-                                            <li><a href="index.html">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                                <div class="footer-widget links-widget ml-70">
-                                    <div class="widget-title">
-                                        <h4>Activities</h4>
-                                    </div>
-                                    <div class="widget-content">
-                                        <ul class="links-list clearfix">
-                                            <li><a href="index.html">Tree Climbing</a></li>
-                                            <li><a href="index.html">Cross the River</a></li>
-                                            <li><a href="index.html">Mountain Boarding</a></li>
-                                            <li><a href="index.html">Parachute</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                                <div class="footer-widget contact-widget">
-                                    <div class="widget-title">
-                                        <h4>Contact</h4>
-                                    </div>
-                                    <div class="widget-content">
-                                        <p>60 road, broklyn golden street new york. USA</p>
-                                        <ul class="social-links clearfix">
-                                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                                            <li><a href="https://www.instagram.com/aloutdoor.id?igsh=MWM0NXR1dDZ1ZHF0eg=="><i class="fab fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
-                                <div class="footer-widget newsletter-widget">
-                                    <div class="widget-title">
-                                        <h4>Newsletter</h4>
-                                    </div>
-                                    <div class="widget-content">
-                                        <p>Subsrcibe for our upcoming latest articles and news resources</p>
-                                        <form action="contact.html" method="post" class="newsletter-form">
-                                            <div class="form-group">
-                                                <input type="email" name="email" placeholder="Email address" required>
-                                                <button type="submit"><i class="fas fa-paper-plane"></i></button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom centred">
-                    <div class="auto-container">
-                        <div class="copyright">
-                            <p>&copy; Copyright 2022 by <a href="index.html">company.com</a></p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </section>
-        <!-- main-footer end -->
-
+        <!-- testimoni end -->
 
         <!-- scroll to top -->
         <button class="scroll-top scroll-to-target" data-target="html">
