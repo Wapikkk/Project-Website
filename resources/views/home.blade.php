@@ -86,7 +86,7 @@
                                             <li><a href="#tentang-kami">Tentang Kami</a></li>
                                             <li><a href="#testimoni">Testimoni</a></li>
                                         </ul>
-                                    </li> 
+                                    </li>
                                     <li class="dropdown"><a href="index.html">Katalog</a>
                                         <ul>
                                             <li><a href="activities.html">Katalog Barang</a></li>
@@ -136,7 +136,7 @@
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><i class="fas fa-times"></i></div>
-            
+
             <nav class="menu-box">
                 <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
@@ -160,7 +160,7 @@
             </nav>
         </div><!-- End Mobile Menu -->
 
-        
+
         <!-- banner-section -->
         <section class="banner-section centred">
             <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
@@ -171,7 +171,7 @@
                             <div class="shape" style="background-image: url(assets/images/shape/shape-2.png);"></div>
                             <span>Temukan Keajaiban di Setiap Sudut Alam</span>
                             <h2>Petualangan Dimulai <br />dari Langkah Pertama</h2>
-                        </div>  
+                        </div>
                     </div>
                 </div>
                 <div class="slide-item style-two">
@@ -180,7 +180,7 @@
                         <div class="content-box">
                             <span>Temukan Keajaiban di Setiap Sudut Alam</span>
                             <h2>Setiap Langkah <br />Adalah Cerita Baru</h2>
-                        </div>  
+                        </div>
                     </div>
                 </div>
             </div>
@@ -275,11 +275,11 @@
                         <div class="image_block_one">
                             <div class="image-box">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7902.6823387202185!2d112.618417!3d-7.96365!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788281bdd08839%3A0xc915f268bffa831f!2sUniversitas%20Negeri%20Malang!5e0!3m2!1sid!2sid!4v1744709605415!5m2!1sid!2sid"
-                                    width="100%" 
-                                    height="300" 
-                                    style="border:0; border-radius: 10px;" 
-                                    allowfullscreen="" 
-                                    loading="lazy" 
+                                    width="100%"
+                                    height="300"
+                                    style="border:0; border-radius: 10px;"
+                                    allowfullscreen=""
+                                    loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade">
                                 </iframe>
                             </div>
@@ -292,10 +292,9 @@
                                     <span class="sub-title">Tentang Kami</span>
                                     <h2>Selamat Datang di Aloutdoor.id</h2>
                                 </div>
-                                <div class="text">
-                                    <div class="icon-box"><i class="flaticon-camping"></i></div>
-                                    <p>Siap untuk petualangan seru? Hanya di Aloutdoor.id! Di sini kamu bisa sewa alat camping, 
-                                        ikut opentrip ke Bromo, atau seru-seruan naik motor trail. Semua serba gampang, 
+                                <div class="text p-0">
+                                    <p>Siap untuk petualangan seru? Hanya di Aloutdoor.id! Di sini kamu bisa sewa alat camping,
+                                        ikut opentrip ke Bromo, atau seru-seruan naik motor trail. Semua serba gampang,
                                         aman, dan pastinya bikin petualangan kamu makin berkesan!.</p>
                                 </div>
                                 <ul class="list-style-one clearfix">
@@ -402,10 +401,6 @@
         </section>
         <!-- testimoni end -->
 
-        <!-- scroll to top -->
-        <button class="scroll-top scroll-to-target" data-target="html">
-            <i class="fal fa-long-arrow-up"></i>
-        </button>
     </div>
 
 
