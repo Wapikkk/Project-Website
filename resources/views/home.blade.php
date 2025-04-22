@@ -278,14 +278,6 @@
                                     <li>Private Trip & Open Trip Bromo.</li>
                                     <li>Persewaan motor trail.</li>
                                 </ul>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7902.6823387202185!2d112.618417!3d-7.96365!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788281bdd08839%3A0xc915f268bffa831f!2sUniversitas%20Negeri%20Malang!5e0!3m2!1sid!2sid!4v1744709605415!5m2!1sid!2sid"
-                                    width="100%" 
-                                    height="300" 
-                                    style="border:0; border-radius: 10px;" 
-                                    allowfullscreen="" 
-                                    loading="lazy" 
-                                    referrerpolicy="no-referrer-when-downgrade">
-                                </iframe>
                             </div>
                         </div>
                     </div>
@@ -345,39 +337,18 @@
                     <div class="shape" style="background-image: url(assets/images/shape/shape-8.png);"></div>
                     <div class="testimonial-content">
                         <div class="single-item-carousel owl-carousel owl-theme owl-nav-none">
-                            <div class="inner-box">
-                                <div class="icon-box"><i class="flaticon-quote"></i></div>
-                                <div class="text">
-                                    <h3>This is due to their excellent service, and augue homero consectetuer in nam. Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.</h3>
+                            @foreach ($reviews as $review)
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="flaticon-quote"></i></div>
+                                    <div class="text">
+                                        <h3>{{ $review->review }}</h3>
+                                    </div>
+                                    <div class="author-box p-0">
+                                        <span class="name">{{ $review->name }}</span>
+                                        <span class="designation">Customer (Rating: {{ $review->rating }}/5)</span>
+                                    </div>
                                 </div>
-                                <div class="author-box">
-                                    <figure class="author-thumb"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
-                                    <span class="name">Jessica Brown</span>
-                                    <span class="designation">Customer</span>
-                                </div>
-                            </div>
-                            <div class="inner-box">
-                                <div class="icon-box"><i class="flaticon-quote"></i></div>
-                                <div class="text">
-                                    <h3>This is due to their excellent service, and augue homero consectetuer in nam. Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.</h3>
-                                </div>
-                                <div class="author-box">
-                                    <figure class="author-thumb"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
-                                    <span class="name">Jessica Brown</span>
-                                    <span class="designation">Customer</span>
-                                </div>
-                            </div>
-                            <div class="inner-box">
-                                <div class="icon-box"><i class="flaticon-quote"></i></div>
-                                <div class="text">
-                                    <h3>This is due to their excellent service, and augue homero consectetuer in nam. Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.</h3>
-                                </div>
-                                <div class="author-box">
-                                    <figure class="author-thumb"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
-                                    <span class="name">Jessica Brown</span>
-                                    <span class="designation">Customer</span>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>
