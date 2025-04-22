@@ -25,6 +25,9 @@
 <link href="{{asset('css/style.css')}}" rel="stylesheet">
 <link href="{{asset('css/responsive.css')}}" rel="stylesheet">
 
+<!-- Bootstrap Icon -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 
 
@@ -86,7 +89,7 @@
                                             <li><a href="#tentang-kami">Tentang Kami</a></li>
                                             <li><a href="#testimoni">Testimoni</a></li>
                                         </ul>
-                                    </li> 
+                                    </li>
                                     <li class="dropdown"><a href="index.html">Katalog</a>
                                         <ul>
                                             <li><a href="activities.html">Katalog Barang</a></li>
@@ -136,14 +139,14 @@
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><i class="fas fa-times"></i></div>
-            
+
             <nav class="menu-box">
                 <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             </nav>
         </div><!-- End Mobile Menu -->
 
-        
+
         <!-- banner-section -->
         <section class="banner-section centred">
             <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
@@ -154,7 +157,7 @@
                             <div class="shape" style="background-image: url(assets/images/shape/shape-2.png);"></div>
                             <span>Temukan Keajaiban di Setiap Sudut Alam</span>
                             <h2>Petualangan Dimulai <br />dari Langkah Pertama</h2>
-                        </div>  
+                        </div>
                     </div>
                 </div>
                 <div class="slide-item style-two">
@@ -163,7 +166,7 @@
                         <div class="content-box">
                             <span>Temukan Keajaiban di Setiap Sudut Alam</span>
                             <h2>Setiap Langkah <br />Adalah Cerita Baru</h2>
-                        </div>  
+                        </div>
                     </div>
                 </div>
             </div>
@@ -254,21 +257,20 @@
             {{-- <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-4.png);"></div> --}}
             <div class="auto-container">
                 <div class="row clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                        <div class="image_block_one">
-                            <div class="image-box"></div>
+                    <div class="col-12">
+                        <div class="sec-title text-center">
+                            <span class="sub-title">Tentang Kami</span>
+                            <h2>Selamat Datang di Aloutdoor.id</h2>
                         </div>
                     </div>
+                </div>
+                <div class="row clearfix flex-row-reverse">
                     <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                         <div class="content_block_one">
                             <div class="content-box">
-                                <div class="sec-title">
-                                    <span class="sub-title">Tentang Kami</span>
-                                    <h2>Selamat Datang di Aloutdoor.id</h2>
-                                </div>
-                                <div class="text">
-                                    <p>Siap untuk petualangan seru? Hanya di Aloutdoor.id! Di sini kamu bisa sewa alat camping, 
-                                        ikut opentrip ke Bromo, atau seru-seruan naik motor trail. Semua serba gampang, 
+                                <div class="text p-0 mb-1">
+                                    <p>Siap untuk petualangan seru? Hanya di Aloutdoor.id! Di sini kamu bisa sewa alat camping,
+                                        ikut opentrip ke Bromo, atau seru-seruan naik motor trail. Semua serba gampang,
                                         aman, dan pastinya bikin petualangan kamu makin berkesan!.</p>
                                 </div>
                                 <ul class="list-style-one clearfix">
@@ -284,6 +286,49 @@
                                     loading="lazy" 
                                     referrerpolicy="no-referrer-when-downgrade">
                                 </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                        <div class="image_block_one">
+                            <div class="image-box">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.5474293070242!2d112.59500837607811!3d-7.942242079113416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7883add7908f57%3A0xac4bc13c3d0808a4!2sAl%20Outdoor.id%20(Sewa%20Tenda%20%26%20Motor%20Trail%20Murah%20Malang)!5e0!3m2!1sen!2sid!4v1745255964974!5m2!1sen!2sid"
+                                    width="100%"
+                                    height="300"
+                                    style="border:0; border-radius: 10px;"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-12">
+                        <div class="sec-title text-center">
+                            <span class="sub-title">Follow Us On</span>
+                            <div class="row justify-content-center">
+                                <div class="col-auto">
+                                    <a href="https://www.instagram.com/aloutdoor.id?igsh=MWM0NXR1dDZ1ZHF0eg==" target="_blank" class="text-decoration-none text-dark">
+                                        <i class="bi bi-instagram mx-2" style="font-size: 2rem"></i>
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.tiktok.com/@aloutdoor.id" target="_blank" class="text-decoration-none text-dark">
+                                        <i class="bi bi-tiktok mx-2" style="font-size: 2rem"></i>
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="mailto:aloutdoor.id@gmail.com" class="text-decoration-none text-dark">
+                                        <i class="bi bi-envelope-at mx-2" style="font-size: 2rem"></i>
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://wa.me/6288989061400" target="_blank" class="text-decoration-none text-dark">
+                                        <i class="bi bi-whatsapp mx-2" style="font-size: 2rem"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -382,6 +427,7 @@
             </div>
         </section>
         <!-- testimoni end -->
+
     </div>
 
 
