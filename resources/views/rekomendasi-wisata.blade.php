@@ -5,25 +5,25 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Amping - HTML 5 Template Preview</title>
+<title>Aloutdoor.id</title>
 
 <!-- Fav Icon -->
-<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="{{ asset('images/logo_aloutdoor.png') }}" type="image/x-icon">
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 <!-- Stylesheets -->
-<link href="assets/css/font-awesome-all.css" rel="stylesheet">
-<link href="assets/css/flaticon.css" rel="stylesheet">
-<link href="assets/css/owl.css" rel="stylesheet">
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-<link href="assets/css/animate.css" rel="stylesheet">
-<link href="assets/css/color.css" rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
-<link href="assets/css/responsive.css" rel="stylesheet">
+<link href="{{ asset ('/css/font-awesome-all.css')}}" rel="stylesheet">
+<link href="{{ asset ('/css/flaticon.css')}}" rel="stylesheet">
+<link href="{{ asset ('/css/owl.css')}}" rel="stylesheet">
+<link href="{{ asset ('/css/bootstrap.css')}}" rel="stylesheet">
+<link href="{{ asset ('/css/jquery.fancybox.min.css')}}" rel="stylesheet">
+<link href="{{ asset ('/css/animate.css')}}" rel="stylesheet">
+<link href="{{ asset ('/css/color.css')}}" rel="stylesheet">
+<link href="{{ asset ('/css/style.css')}}" rel="stylesheet">
+<link href="{{ asset ('/css/responsive.css')}}" rel="stylesheet">
 
 </head>
 
@@ -265,15 +265,6 @@
                     </div>
                 </div>
             </div>
-            <div class="media-partner">
-                <ul class="media-links clearfix">
-                    <li><h6>Follow on social media</h6></li>
-                    <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                    <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                </ul>
-            </div>
         </section>
         <!-- End Page Title -->
 
@@ -285,15 +276,13 @@
                     <div class="col-lg-8 col-md-12 col-sm-12 content-side">
                         <div class="blog-classic-content">
                             <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <div class="inner-box">
-                                    <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news-4.jpg" alt=""></a></figure>
-                                    <div class="lower-content">
+                                <div class="inner-box d-flex flex-row gap-4 align-items-stretch">
+                                    <figure class="image-box m-0" style="flex: 1;">
+                                        <img src="{{ asset ('images/sunset_bromo.jpg') }}" style="width:100%; height: 100%; object-fit: cover;" alt="">
+                                    </figure>
+                                    <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <span class="post-date">20 oct, 2021</span>
-                                        <ul class="post-info clearfix">
-                                            <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                            <li><i class="far fa-comments"></i><a href="blog-details.html">2 Comments</a></li>
-                                        </ul>
-                                        <h3><a href="blog-details.html">Get Ready for the Summer Camp</a></h3>
+                                        <h3>Get Ready for the Summer Camp</h3>
                                         <p>There are not many of passages of lorem ipsum available alteration in some form. Donec scelerisque dolor id nunc dictum, interdum gravida.</p>
                                         <div class="link">
                                             <a href="blog-details.html">Read More</a>
@@ -303,14 +292,10 @@
                             </div>
                             <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div class="inner-box">
-                                    <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news-5.jpg" alt=""></a></figure>
+                                    <figure class="image-box"><img src="{{ asset ('images/bedengan.jpg') }}" style="width:100%; height: 422px; object-fit: cover;" alt=""></figure>
                                     <div class="lower-content">
                                         <span class="post-date">19 oct, 2021</span>
-                                        <ul class="post-info clearfix">
-                                            <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                            <li><i class="far fa-comments"></i><a href="blog-details.html">5 Comments</a></li>
-                                        </ul>
-                                        <h3><a href="blog-details.html">Duis Laoreet Cursus Justo, sed ulis</a></h3>
+                                        <h3>Duis Laoreet Cursus Justo, sed ulis</h3>
                                         <p>There are not many of passages of lorem ipsum available alteration in some form. Donec scelerisque dolor id nunc dictum, interdum gravida.</p>
                                         <div class="link">
                                             <a href="blog-details.html">Read More</a>
@@ -354,68 +339,6 @@
                             </div>
                             <div class="more-btn">
                                 <a href="blog.html" class="theme-btn btn-one">load more posts</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                        <div class="blog-sidebar">
-                            <div class="search-widget">
-                                <form action="blog.html" method="post" class="search-form">
-                                    <div class="form-group">
-                                        <input type="search" name="search-field" placeholder="Search" required>
-                                        <button type="submit"><i class="fas fa-search"></i></button>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="sidebar-widget post-widget">
-                                <div class="widget-title">
-                                    <h4>Recent Posts</h4>
-                                </div>
-                                <div class="post-inner">
-                                    <div class="post">
-                                        <figure class="post-thumb"><a href="blog-details.html"><img src="assets/images/news/post-1.jpg" alt=""></a></figure>
-                                        <div class="post-date"><i class="far fa-comments"></i><a href="blog-details.html">2 Comments</a></div>
-                                        <h6><a href="blog-details.html">Integer tristique odio vitae lorem gra</a></h6>
-                                    </div>
-                                    <div class="post">
-                                        <figure class="post-thumb"><a href="blog-details.html"><img src="assets/images/news/post-2.jpg" alt=""></a></figure>
-                                        <div class="post-date"><i class="far fa-comments"></i><a href="blog-details.html">5 Comments</a></div>
-                                        <h6><a href="blog-details.html">Get Ready for the Summer Camp</a></h6>
-                                    </div>
-                                    <div class="post">
-                                        <figure class="post-thumb"><a href="blog-details.html"><img src="assets/images/news/post-3.jpg" alt=""></a></figure>
-                                        <div class="post-date"><i class="far fa-comments"></i><a href="blog-details.html">3 Comments</a></div>
-                                        <h6><a href="blog-details.html">Duis Laoreet Cursus Justo, sed ulis</a></h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="sidebar-widget category-widget">
-                                <div class="widget-title">
-                                    <h4>Categories</h4>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="category-list clearfix">
-                                        <li><a href="blog-details.html">Summer Camp</a></li>
-                                        <li><a href="blog-details.html">Holidays</a></li>
-                                        <li><a href="blog-details.html">Tours & Trips</a></li>
-                                        <li><a href="blog-details.html">Cottages</a></li>
-                                        <li><a href="blog-details.html">Family Time</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="sidebar-widget tags-widget">
-                                <div class="widget-title">
-                                    <h4>Popular Tags</h4>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="tags-list clearfix">
-                                        <li><a href="blog-details.html">camping</a></li>
-                                        <li><a href="blog-details.html">Cottages</a></li>
-                                        <li><a href="blog-details.html">Holidays</a></li>
-                                        <li><a href="blog-details.html">summer camp</a></li>
-                                        <li><a href="blog-details.html">Family</a></li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -519,29 +442,24 @@
         </footer>
         <!-- main-footer end -->
 
-
-        <!-- scroll to top -->
-        <button class="scroll-top scroll-to-target" data-target="html">
-            <i class="fal fa-long-arrow-up"></i>
-        </button>
     </div>
 
 
     <!-- jequery plugins -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/validation.js"></script>
-    <script src="assets/js/jquery.fancybox.js"></script>
-    <script src="assets/js/appear.js"></script>
-    <script src="assets/js/scrollbar.js"></script>
-    <script src="assets/js/parallax-scroll.js"></script>
-    <script src="assets/js/isotope.js"></script>
+    <script src="{{ asset ('/js/jquery.js')}}"></script>
+    <script src="{{ asset ('/js/popper.min.js')}}"></script>
+    <script src="{{ asset ('/js/bootstrap.min.js')}}"></script>
+    <script src="{{ asset ('/js/owl.js')}}"></script>
+    <script src="{{ asset ('/js/wow.js')}}"></script>
+    <script src="{{ asset ('/js/validation.js')}}"></script>
+    <script src="{{ asset ('/js/jquery.fancybox.js')}}"></script>
+    <script src="{{ asset ('/js/appear.js')}}"></script>
+    <script src="{{ asset ('/js/scrollbar.js')}}"></script>
+    <script src="{{ asset ('/js/parallax-scroll.js')}}"></script>
+    <script src="{{ asset ('/js/isotope.js')}}"></script>
 
     <!-- main-js -->
-    <script src="assets/js/script.js"></script>
+    <script src="{{ asset ('/js/script.js')}}"></script>
 
 </body><!-- End of .page_wrapper -->
 </html>
