@@ -7,7 +7,6 @@
         <!-- Page Title -->
         <section class="page-title centred">
             <div class="bg-layer" style="background-image: url('{{ asset('images/banner-blog.jpg') }}');"></div>
-            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-12.png);"></div>
             <div class="auto-container">
                 <div class="content-box">
                     <div class="title">
@@ -32,11 +31,15 @@
                                     </figure>
                                     <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <h3>Gunung Bromo - Malang</h3>
-                                        <p>Siapa yang nggak kenal Gunung Bromo? Destinasi satu ini selalu jadi andalan buat kamu yang pingin healing bareng alam, jauh dari hiruk-pikuk kota. Terletak di Taman Nasional Bromo Tengger Semeru, kawasan ini menyuguhkan pemandangan sunrise yang luar biasa cantik, lautan pasir yang luas, dan udara sejuk yang bikin pikiran langsung segar.
-                                            Dari Bukit Penanjakan sampai Kawah Bromo, setiap sudutnya cocok banget buat kamu yang hobi foto atau sekadar duduk tenang menikmati alam. Nggak heran kalau Bromo jadi pilihan utama buat liburan bareng teman, keluarga, bahkan solo traveling.</p>
-                                        <div class="link">
+                                        <p>Siapa yang nggak kenal Gunung Bromo? Destinasi satu ini selalu jadi andalan buat kamu yang pingin healing bareng alam, jauh 
+                                            dari hiruk-pikuk kota. Terletak di Taman Nasional Bromo Tengger Semeru, kawasan ini menyuguhkan pemandangan sunrise yang luar 
+                                            biasa cantik, lautan pasir yang luas, dan udara sejuk yang bikin pikiran langsung segar. Dari Bukit Penanjakan sampai Kawah Bromo, 
+                                            setiap sudutnya cocok banget buat kamu yang hobi foto atau sekadar duduk tenang menikmati alam. Nggak heran kalau Bromo jadi pilihan 
+                                            utama buat liburan bareng teman, keluarga, bahkan solo traveling.
+                                        </p>
+                                        {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
@@ -47,12 +50,14 @@
                                     </figure>
                                     <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <h3>Bumi Perkemahan Bedengan - Malang</h3>
-                                        <p>Kalau kamu lagi cari tempat healing yang adem, tenang, dan nggak jauh dari kota, Bumi Perkemahan Bedengan bisa jadi jawaban terbaik. Terletak di kawasan Dau, Malang, lokasi ini dikelilingi hutan pinus yang rimbun dan aliran sungai jernih yang bikin suasana makin damai.
-
-                                            Bedengan cocok banget buat kamu yang pengin camping santai bareng teman, family time, atau sekadar rebahan di hammock sambil denger suara alam. Udara di sini sejuk banget, dan saat malam tiba, kamu bisa menikmati langit berbintang tanpa gangguan cahaya kota.</p>
-                                        <div class="link">
+                                        <p>Kalau kamu lagi cari tempat healing yang adem, tenang, dan nggak jauh dari kota, Bumi Perkemahan Bedengan bisa jadi jawaban terbaik. 
+                                            Terletak di kawasan Dau, Malang, lokasi ini dikelilingi hutan pinus yang rimbun dan aliran sungai jernih yang bikin suasana makin damai.
+                                            Bedengan cocok banget buat kamu yang pengin camping santai bareng teman, family time, atau sekadar rebahan di hammock sambil denger suara alam. 
+                                            Udara di sini sejuk banget, dan saat malam tiba, kamu bisa menikmati langit berbintang tanpa gangguan cahaya kota.
+                                        </p>
+                                        {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
@@ -61,14 +66,19 @@
                                     <figure class="image-box m-0" style="flex: 1;">
                                         <img src="{{ asset ('images/gunung_butak.jpg') }}" style="width:100%; height: 100%; height: 300px; object-fit: cover;" alt="">
                                     </figure>
-                                    <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">                                      <h3>Gunung Butak - Blitar</h3>
-                                        <p>Kalau kamu tipe pendaki yang suka ketenangan dan pengin ngerasain hiking dengan suasana yang lebih sunyi, Gunung Butak adalah tempat yang tepat. Terletak di perbatasan Malang dan Blitar, gunung ini menawarkan track yang menantang tapi penuh kedamaian, jauh dari keramaian jalur pendakian populer.
-                                            Pemandangan di puncaknya nggak kalah keren dari gunung-gunung besar lain. Kamu akan disambut dengan sabana luas dan panorama 360 derajat yang bikin capek selama pendakian langsung terbayar lunas. Suhu di malam hari bisa turun drastis, jadi pastikan kamu siap dengan perlengkapan camping yang proper.
-                                            
-                                            Butuh waktu buat diri sendiri, atau mau quality time bareng sahabat pendaki? Gunung Butak bisa jadi destinasi healing yang nggak cuma menyegarkan badan, tapi juga pikiran. </p>
-                                        <div class="link">
+                                    <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
+                                        <h3>Gunung Butak - Blitar</h3>
+                                        <p>Kalau kamu tipe pendaki yang suka ketenangan dan pengin ngerasain hiking dengan suasana yang lebih sunyi, 
+                                            Gunung Butak adalah tempat yang tepat. Terletak di perbatasan Malang dan Blitar, gunung ini menawarkan 
+                                            track yang menantang tapi penuh kedamaian, jauh dari keramaian jalur pendakian populer. Pemandangan di puncaknya 
+                                            nggak kalah keren dari gunung-gunung besar lain. Kamu akan disambut dengan sabana luas dan panorama 360 derajat 
+                                            yang bikin capek selama pendakian langsung terbayar lunas. Suhu di malam hari bisa turun drastis, jadi pastikan 
+                                            kamu siap dengan perlengkapan camping yang proper. Butuh waktu buat diri sendiri, atau mau quality time bareng 
+                                            sahabat pendaki? Gunung Butak bisa jadi destinasi healing yang nggak cuma menyegarkan badan, tapi juga pikiran. 
+                                        </p>
+                                        {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
@@ -83,9 +93,9 @@
                                             Pasir putih, batuan karang unik, dan tebing-tebing eksotis jadi ciri khas tempat ini. Serunya lagi, Watu Leter juga dikenal sebagai habitat penyu, lho! Kalau beruntung, kamu bisa melihat proses pelepasan tukik (anak penyu) langsung ke laut.
                                             
                                             Cocok banget buat kamu yang pengin camping tipis-tipis, duduk di hammock sambil baca buku, atau jalan santai di pinggir pantai bareng orang tersayang.</p>
-                                        <div class="link">
+                                        {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
@@ -96,12 +106,12 @@
                                     </figure>
                                     <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <h3>Pantai Kondang Merak - Malang</h3>
-                                        <p>Lagi pengin pantai yang sepi, adem, dan jauh dari keramaian? Pantai Kondang Merak jawabannya! Lokasinya ada di Malang Selatan, dengan pasir putih luas, ombak tenang, dan deretan pohon yang bikin suasana makin damai.
-
-                                            Cocok buat camping santai, ngopi sambil liat laut, atau sekadar rebahan dengerin suara ombak. </p>
-                                        <div class="link">
+                                        <p>Lagi pengin pantai yang sepi, adem, dan jauh dari keramaian? Pantai Kondang Merak jawabannya! Lokasinya ada di Malang Selatan, dengan pasir putih 
+                                            luas, ombak tenang, dan deretan pohon yang bikin suasana makin damai. Cocok buat camping santai, ngopi sambil liat laut, atau sekadar rebahan dengerin suara ombak. 
+                                        </p>
+                                        {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
@@ -112,12 +122,14 @@
                                     </figure>
                                     <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <h3>Ranu Regulo - Lumajang</h3>
-                                        <p>Kalau kamu lagi butuh tempat yang tenang, jauh dari hiruk-pikuk, dan penuh ketenangan alami, Ranu Regulo wajib masuk daftar healing kamu. Terletak di kawasan Taman Nasional Bromo Tengger Semeru, danau ini menyuguhkan suasana yang adem, sejuk, dan damai — cocok banget buat kamu yang pengin rehat sejenak dari rutinitas.
-
-                                            Dikelilingi oleh hutan dan udara pegunungan yang segar, Ranu Regulo jadi tempat ideal buat camping santai, foto-foto estetik, atau sekadar duduk di tepi danau sambil menyeruput kopi panas. Suasananya lebih tenang dibanding Ranu Kumbolo, tapi tetap memesona dengan caranya sendiri.</p>
-                                        <div class="link">
+                                        <p>Kalau kamu lagi butuh tempat yang tenang, jauh dari hiruk-pikuk, dan penuh ketenangan alami, Ranu Regulo wajib masuk daftar healing kamu. 
+                                            Terletak di kawasan Taman Nasional Bromo Tengger Semeru, danau ini menyuguhkan suasana yang adem, sejuk, dan damai — cocok banget buat kamu yang pengin rehat sejenak dari rutinitas.
+                                            Dikelilingi oleh hutan dan udara pegunungan yang segar, Ranu Regulo jadi tempat ideal buat camping santai, foto-foto estetik, atau sekadar 
+                                            duduk di tepi danau sambil menyeruput kopi panas. Suasananya lebih tenang dibanding Ranu Kumbolo, tapi tetap memesona dengan caranya sendiri.
+                                        </p>
+                                        {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
@@ -128,51 +140,19 @@
                                     </figure>
                                     <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <h3>Tumpak Sewu - Lumajang</h3>
-                                        <p>Lagi cari tempat healing yang bisa bikin kamu speechless? Coba ke Tumpak Sewu — air terjun megah di perbatasan Lumajang dan Malang yang sering dijuluki “Niagara-nya Indonesia”. Air terjun ini punya formasi setengah lingkaran yang unik, dikelilingi tebing hijau tinggi dan kabut tipis yang bikin suasana makin magis.
-
-                                            Buat kamu pecinta petualangan, perjalanan turun ke dasar lembah menuju Tumpak Sewu akan jadi pengalaman tak terlupakan. Trek-nya cukup menantang, tapi semua itu terbayar lunas saat kamu berdiri di bawah guyuran air terjun yang deras dan menyegarkan.</p>
-                                        <div class="link">
+                                        <p>Lagi cari tempat healing yang bisa bikin kamu speechless? Coba ke Tumpak Sewu — air terjun megah di perbatasan Lumajang dan Malang yang 
+                                            sering dijuluki “Niagara-nya Indonesia”. Air terjun ini punya formasi setengah lingkaran yang unik, dikelilingi tebing hijau tinggi dan kabut tipis 
+                                            yang bikin suasana makin magis. Buat kamu pecinta petualangan, perjalanan turun ke dasar lembah menuju Tumpak Sewu akan jadi pengalaman 
+                                            tak terlupakan. Trek-nya cukup menantang, tapi semua itu terbayar lunas saat kamu berdiri di bawah guyuran air terjun yang deras dan menyegarkan.
+                                        </p>
+                                        {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <div class="inner-box">
-                                    <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news-6.jpg" alt=""></a></figure>
-                                    <div class="lower-content">
-                                        <span class="post-date">15 oct, 2021</span>
-                                        <ul class="post-info clearfix">
-                                            <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                            <li><i class="far fa-comments"></i><a href="blog-details.html">0 Comments</a></li>
-                                        </ul>
-                                        <h3><a href="blog-details.html">Morbi nec Finibus mi. Cras Risus</a></h3>
-                                        <p>There are not many of passages of lorem ipsum available alteration in some form. Donec scelerisque dolor id nunc dictum, interdum gravida.</p>
-                                        <div class="link">
-                                            <a href="blog-details.html">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <div class="inner-box">
-                                    <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news-7.jpg" alt=""></a></figure>
-                                    <div class="lower-content">
-                                        <span class="post-date">12 oct, 2021</span>
-                                        <ul class="post-info clearfix">
-                                            <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                            <li><i class="far fa-comments"></i><a href="blog-details.html">7 Comments</a></li>
-                                        </ul>
-                                        <h3><a href="blog-details.html">Nulla Posuere tortor eu Erat Blandit</a></h3>
-                                        <p>There are not many of passages of lorem ipsum available alteration in some form. Donec scelerisque dolor id nunc dictum, interdum gravida.</p>
-                                        <div class="link">
-                                            <a href="blog-details.html">Read More</a>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
                             <div class="more-btn">
-                                <a href="blog.html" class="theme-btn btn-one">load more posts</a>
+                                <a href="{{ url ('/home#penawaran-spesial') }}" class="theme-btn btn-one">load more posts</a>
                             </div>
                         </div>
                     </div>

@@ -20,3 +20,11 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/rekomendasi-wisata', function () {
     return view('rekomendasi-wisata');
 });
+
+Route::get('/katalog-barang', function(){
+    return view('/katalog-barang');
+});
+
+Route::get('/katalog-paket', function(){
+    return view('/katalog-paket');
+});

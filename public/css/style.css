@@ -2018,9 +2018,9 @@ div#mCSB_1_container {
     transition: all 500ms ease;
 }
 
-.activities-block-one .inner-box:hover .lower-content .icon-box {
+/* .activities-block-one .inner-box:hover .lower-content .icon-box {
     color: #fff;
-}
+} */
 
 .activities-block-one .inner-box .lower-content .icon-box .shape {
     position: absolute;
@@ -4511,7 +4511,8 @@ div#mCSB_1_container {
     padding: 120px 0px 100px 0px;
 }
 
-.sidebar-page-container .news-block-one .inner-box .lower-content:before {
+.sidebar-page-container .
+block-one .inner-box .lower-content:before {
     display: none;
 }
 

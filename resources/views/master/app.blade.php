@@ -88,18 +88,18 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="#beranda">Beranda</a>
+                                    <li class="current dropdown"><a href="{{ url ('/home') }}">Beranda</a>
                                         <ul>
                                             <li><a href="#tentang-kami">Tentang Kami</a></li>
                                             <li><a href="#penawaran-spesial">Penawaran Spesial</a></li>
                                             <li><a href="#testimoni">Testimoni</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="index.html">Katalog</a>
+                                    <li class="dropdown"><a href="javascript:void(0)">Katalog</a>
                                         <ul>
-                                            <li><a href="activities.html">Katalog Barang</a></li>
+                                            <li><a href="{{ url( '/katalog-barang') }}">Katalog Barang</a></li>
                                             <li><a href="climbing.html">Katalog Opentrip</a></li>
-                                            <li><a href="adventure.html">Katalog Paket</a></li>
+                                            <li><a href="{{ url('/katalog-paket') }}">Katalog Paket</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="index.html">Informasi Pemesanan</a></li>

@@ -130,8 +130,9 @@
                                             <i class="flaticon-tent"></i>
                                         </div>
                                         <h3><a href="climbing.html">Sewa Perlengkapan</a></h3>
-                                        <p>Butuh perlengkapan outdoor? Kami menyediakan berbagai alat camping dan aktivitas luar ruangan yang siap pakai. Praktis, terjangkau, dan siap mendukung setiap langkah petualanganmu.</p>
-                                        <div class="link"><a href="climbing.html">Read More</a></div>
+                                        <p>Butuh perlengkapan outdoor? Kami menyediakan berbagai alat camping dan 
+                                            aktivitas luar ruangan yang siap pakai. Praktis, terjangkau, dan siap mendukung setiap langkah petualanganmu.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -147,8 +148,9 @@
                                             <i class="flaticon-adventurer"></i>
                                         </div>
                                         <h3><a href="adventure.html">Open Trip</a></h3>
-                                        <p>Ingin menjelajah tanpa ribet? Gabung dalam Open Trip kami dan nikmati serunya perjalanan bersama teman-teman baru dengan rute yang telah dikurasi oleh tim profesional kami.</p>
-                                        <div class="link"><a href="adventure.html">Read More</a></div>
+                                        <p>Ingin menjelajah tanpa ribet? Gabung dalam Open Trip kami dan nikmati serunya perjalanan 
+                                            bersama teman-teman baru dengan rute yang telah dikurasi oleh tim profesional kami.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -164,8 +166,9 @@
                                             <i class="flaticon-tent"></i>
                                         </div>
                                         <h3><a href="camping.html">Paket Lebih Hemat</a></h3>
-                                        <p>Bingung mau sewa apa aja? Tenang, kami udah siapin paket perlengkapan yang lengkap dan praktis! gak perlu ribet milih satu-satu. Hemat waktu, hemat biaya, tinggal pakai!</p>
-                                        <div class="link"><a href="camping.html">Read More</a></div>
+                                        <p>Bingung mau sewa apa aja? Tenang, kami udah siapin paket perlengkapan yang lengkap 
+                                            dan praktis! gak perlu ribet milih satu-satu. Hemat waktu, hemat biaya, tinggal pakai!
+                                        </p>
                                     </div>
                                 </div>
                             </div>
