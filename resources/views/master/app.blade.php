@@ -73,7 +73,7 @@
         <header class="main-header header-style-one" id="beranda">
             <div class="header-lower d-flex align-items-center justify-content-between py-0">
                 <div class="logo">
-                    <a href="index.html">
+                    <a href="{{ url ('/home') }}">
                         <img src="{{ asset('images/logo_aloutdoor.png') }}" alt="logo" style="height: 100px;">
                     </a>
                 </div>

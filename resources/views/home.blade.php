@@ -165,7 +165,7 @@
                                             <div class="overlay-shape" style="background-image: url(assets/images/shape/shape-6.png);"></div>
                                             <i class="flaticon-tent"></i>
                                         </div>
-                                        <h3><a href="camping.html">Paket Lebih Hemat</a></h3>
+                                        <h3><a href="{{ url ('katalog-paket') }}">Paket Lebih Hemat</a></h3>
                                         <p>Bingung mau sewa apa aja? Tenang, kami udah siapin paket perlengkapan yang lengkap 
                                             dan praktis! gak perlu ribet milih satu-satu. Hemat waktu, hemat biaya, tinggal pakai!
                                         </p>

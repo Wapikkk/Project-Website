@@ -31,12 +31,8 @@
                                     </figure>
                                     <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <h3>Gunung Bromo - Malang</h3>
-                                        <p>Siapa yang nggak kenal Gunung Bromo? Destinasi satu ini selalu jadi andalan buat kamu yang pingin healing bareng alam, jauh
-                                            dari hiruk-pikuk kota. Terletak di Taman Nasional Bromo Tengger Semeru, kawasan ini menyuguhkan pemandangan sunrise yang luar
-                                            biasa cantik, lautan pasir yang luas, dan udara sejuk yang bikin pikiran langsung segar. Dari Bukit Penanjakan sampai Kawah Bromo,
-                                            setiap sudutnya cocok banget buat kamu yang hobi foto atau sekadar duduk tenang menikmati alam. Nggak heran kalau Bromo jadi pilihan
-                                            utama buat liburan bareng teman, keluarga, bahkan solo traveling.
-                                        </p>
+                                        <p>
+                                            Siapa sih yang nggak kenal Gunung Bromo? Tempat wisata ini selalu jadi andalan buat kamu yang ingin rehat sejenak dari hiruk-pikuk kota dan menikmati alam. Terletak di Taman Nasional Bromo Tengger Semeru, Bromo menyuguhkan panorama sunrise yang memukau, lautan pasir yang luas, serta udara sejuk yang menenangkan. Dari Bukit Penanjakan hingga Kawah Bromo, setiap sudutnya cocok untuk berfoto atau sekadar duduk santai menikmati suasana. Cocok banget buat liburan bareng teman, keluarga, atau solo traveling.</p>
                                         {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
                                         </div> --}}
@@ -68,14 +64,7 @@
                                     </figure>
                                     <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <h3>Gunung Butak - Blitar</h3>
-                                        <p>Kalau kamu tipe pendaki yang suka ketenangan dan pengin ngerasain hiking dengan suasana yang lebih sunyi,
-                                            Gunung Butak adalah tempat yang tepat. Terletak di perbatasan Malang dan Blitar, gunung ini menawarkan
-                                            track yang menantang tapi penuh kedamaian, jauh dari keramaian jalur pendakian populer. Pemandangan di puncaknya
-                                            nggak kalah keren dari gunung-gunung besar lain. Kamu akan disambut dengan sabana luas dan panorama 360 derajat
-                                            yang bikin capek selama pendakian langsung terbayar lunas. Suhu di malam hari bisa turun drastis, jadi pastikan
-                                            kamu siap dengan perlengkapan camping yang proper. Butuh waktu buat diri sendiri, atau mau quality time bareng
-                                            sahabat pendaki? Gunung Butak bisa jadi destinasi healing yang nggak cuma menyegarkan badan, tapi juga pikiran.
-                                        </p>
+                                        <p>Kalau kamu pendaki yang suka ketenangan dan ingin merasakan suasana hiking yang lebih sepi, Gunung Butak bisa jadi pilihan pas. Berada di perbatasan Malang dan Blitar, gunung ini punya jalur menantang tapi damai, jauh dari keramaian. Di puncak, kamu akan disambut sabana luas dan panorama 360 derajat yang luar biasa. Suhunya bisa sangat dingin di malam hari, jadi siapkan perlengkapan camping yang lengkap. Cocok untuk me time atau quality time bareng sahabat pendaki.</p>
                                         {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
                                         </div> --}}
@@ -89,10 +78,7 @@
                                     </figure>
                                     <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <h3>Pantai Watu Leter - Malang</h3>
-                                        <p>Lagi pengin healing tapi bosan sama pantai yang ramai dan penuh spot selfie? Pantai Watu Leter adalah jawabannya. Terletak di daerah Malang Selatan, pantai ini masih tergolong sepi dan alami, jadi kamu bisa nikmatin suasana tenang ditemani suara ombak dan angin laut tanpa banyak gangguan.
-                                            Pasir putih, batuan karang unik, dan tebing-tebing eksotis jadi ciri khas tempat ini. Serunya lagi, Watu Leter juga dikenal sebagai habitat penyu, lho! Kalau beruntung, kamu bisa melihat proses pelepasan tukik (anak penyu) langsung ke laut.
-
-                                            Cocok banget buat kamu yang pengin camping tipis-tipis, duduk di hammock sambil baca buku, atau jalan santai di pinggir pantai bareng orang tersayang.</p>
+                                        <p>Lagi pengin healing tapi bosan dengan pantai yang ramai dan penuh spot selfie? Coba deh ke Pantai Watu Leter. Terletak di Malang Selatan, pantai ini masih alami dan sepi, cocok buat menikmati suasana damai ditemani suara ombak dan angin laut. Pasir putih, karang unik, dan tebing eksotis jadi daya tarik utamanya. Serunya, tempat ini juga jadi habitat penyu! Kalau beruntung, kamu bisa lihat pelepasan tukik. Pas buat camping ringan, baca buku di hammock, atau jalan santai bareng orang tersayang.</p>
                                         {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
                                         </div> --}}
@@ -106,9 +92,7 @@
                                     </figure>
                                     <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <h3>Pantai Kondang Merak - Malang</h3>
-                                        <p>Lagi pengin pantai yang sepi, adem, dan jauh dari keramaian? Pantai Kondang Merak jawabannya! Lokasinya ada di Malang Selatan, dengan pasir putih
-                                            luas, ombak tenang, dan deretan pohon yang bikin suasana makin damai. Cocok buat camping santai, ngopi sambil liat laut, atau sekadar rebahan dengerin suara ombak.
-                                        </p>
+                                        <p>Lagi cari pantai yang sepi, adem, dan jauh dari keramaian? Pantai Kondang Merak bisa jadi pilihan yang pas! Terletak di Malang Selatan, pantai ini menawarkan hamparan pasir putih yang luas, ombak yang tenang, serta deretan pepohonan rindang yang bikin suasana makin damai dan nyaman. Tempat ini cocok banget buat kamu yang pengin camping santai, ngopi sambil menikmati pemandangan laut, atau sekadar rebahan di atas tikar sambil mendengarkan suara ombak yang menenangkan pikiran.</p>
                                         {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
                                         </div> --}}
@@ -122,11 +106,7 @@
                                     </figure>
                                     <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <h3>Ranu Regulo - Lumajang</h3>
-                                        <p>Kalau kamu lagi butuh tempat yang tenang, jauh dari hiruk-pikuk, dan penuh ketenangan alami, Ranu Regulo wajib masuk daftar healing kamu.
-                                            Terletak di kawasan Taman Nasional Bromo Tengger Semeru, danau ini menyuguhkan suasana yang adem, sejuk, dan damai — cocok banget buat kamu yang pengin rehat sejenak dari rutinitas.
-                                            Dikelilingi oleh hutan dan udara pegunungan yang segar, Ranu Regulo jadi tempat ideal buat camping santai, foto-foto estetik, atau sekadar
-                                            duduk di tepi danau sambil menyeruput kopi panas. Suasananya lebih tenang dibanding Ranu Kumbolo, tapi tetap memesona dengan caranya sendiri.
-                                        </p>
+                                        <p>Kalau kamu butuh tempat yang tenang, jauh dari hiruk-pikuk, dan penuh nuansa alami, Ranu Regulo wajib ada di daftar healing kamu. Terletak di kawasan Taman Nasional Bromo Tengger Semeru, danau ini menawarkan suasana adem, sejuk, dan damai, pas banget buat kamu yang pengin rehat dari rutinitas harian. Dikelilingi hutan hijau dan udara pegunungan yang segar, Ranu Regulo cocok untuk camping santai, foto-foto estetik, atau duduk santai di tepi danau sambil menikmati kopi panas. Lebih tenang dari Ranu Kumbolo, tapi tetap memikat.</p>
                                         {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
                                         </div> --}}
@@ -140,11 +120,7 @@
                                     </figure>
                                     <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <h3>Tumpak Sewu - Lumajang</h3>
-                                        <p>Lagi cari tempat healing yang bisa bikin kamu speechless? Coba ke Tumpak Sewu — air terjun megah di perbatasan Lumajang dan Malang yang
-                                            sering dijuluki “Niagara-nya Indonesia”. Air terjun ini punya formasi setengah lingkaran yang unik, dikelilingi tebing hijau tinggi dan kabut tipis
-                                            yang bikin suasana makin magis. Buat kamu pecinta petualangan, perjalanan turun ke dasar lembah menuju Tumpak Sewu akan jadi pengalaman
-                                            tak terlupakan. Trek-nya cukup menantang, tapi semua itu terbayar lunas saat kamu berdiri di bawah guyuran air terjun yang deras dan menyegarkan.
-                                        </p>
+                                        <p>Lagi cari tempat healing yang bikin kamu terpukau? Coba deh ke Tumpak Sewu, air terjun megah di perbatasan Lumajang dan Malang yang dijuluki “Niagara-nya Indonesia”. Dengan formasi setengah lingkaran, tebing hijau yang menjulang, dan kabut tipis yang menyelimuti, suasananya terasa magis. Buat yang suka tantangan, perjalanan ke dasar lembah bakal jadi pengalaman tak terlupakan. Meski treknya cukup menantang, rasa lelah langsung terbayar saat berdiri di bawah guyuran air terjun yang deras dan menyegarkan.</p>
                                         {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
                                         </div> --}}
@@ -152,7 +128,7 @@
                                 </div>
                             </div>
                             <div class="more-btn">
-                                <a href="{{ url ('/home#penawaran-spesial') }}" class="theme-btn btn-one">load more posts</a>
+                                <a href="{{ url ('/home#penawaran-spesial') }}" class="theme-btn btn-one">Rencanakan Petualanganmu!</a>
                             </div>
                         </div>
                     </div>
