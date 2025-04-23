@@ -153,7 +153,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #ffffff;
   text-decoration: none;
   background-color: transparent;
 }
@@ -7223,8 +7223,8 @@ button.bg-dark:focus {
 }
 
 .justify-content-between {
-  -ms-flex-pack: justify !important;
-  justify-content: space-between !important;
+  /* -ms-flex-pack: justify !important; */
+  /* justify-content: space-between !important; */
 }
 
 .justify-content-around {

@@ -111,7 +111,6 @@ body {
 
 .boxed_wrapper {
     position: relative;
-    overflow-x: hidden;
     margin: 0 auto;
     width: 100%;
     min-width: 300px;
@@ -634,7 +633,7 @@ php {
     top: 0px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     width: 100%;
-    z-index: 0;
+    z-index: -1;
     transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
@@ -642,7 +641,7 @@ php {
     -o-transition: all 500ms ease;
 }
 
-.fixed-header .sticky-header {
+/* .fixed-header .sticky-header {
     z-index: 999;
     opacity: 1;
     visibility: visible;
@@ -666,7 +665,7 @@ php {
     -op-animation-iteration-count: 1;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-}
+} */
 
 /** main-header **/
 
@@ -674,6 +673,24 @@ php {
     position: relative;
     background: #000000;
     padding: 0px 100px;
+}
+
+.main-header .header-lower {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 30px; 
+}
+
+.main-header .header-lower .logo {
+    max-width: 100px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.main-header .header-lower .logo img {
+    height: 50px;
+    display: block;
 }
 
 .header-style-one .header-lower .logo-box {
@@ -685,15 +702,20 @@ php {
 }
 
 .main-header .outer-box {
-    position: relative;
+    flex-grow: 1;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
 .main-header .menu-right-content {
-    position: relative;
+    justify-content: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-header .menu-right-content > div {
     display: flex;
     align-items: center;
 }
@@ -702,7 +724,7 @@ php {
     position: relative;
     padding: 10px 40px 4px 78px;
     margin-right: 40px;
-    border-right: 1px solid #e3dcd9;
+    border-right: none !important;
 }
 
 .main-header .menu-right-content .support-box .icon {
@@ -757,7 +779,7 @@ php {
     display: inline-block;
     font-size: 24px;
     line-height: 30px;
-    color: #7c6f68;
+    color: #ffffff;
     font-weight: 700;
 }
 
@@ -780,6 +802,32 @@ php {
     background: transparent;
     font-weight: 700;
     transition: all 500ms ease;
+}
+
+.main-header.fixed-header .sticky-header {
+    z-index: 999;
+    opacity: 1;
+    visibility: visible;
+    -ms-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -op-animation-name: fadeInDown;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -ms-animation-duration: 500ms;
+    -moz-animation-duration: 500ms;
+    -op-animation-duration: 500ms;
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+    -ms-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -op-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -ms-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -op-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
 
 .main-header .search-box-btn:hover {
@@ -904,7 +952,7 @@ php {
     line-height: 30px;
     opacity: 1;
     font-family: "Rubik", sans-serif;
-    color: #7c6f68;
+    color: #ffffff;
     z-index: 1;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;

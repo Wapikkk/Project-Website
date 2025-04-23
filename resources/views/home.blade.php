@@ -71,8 +71,13 @@
 
         <!-- main header -->
         <header class="main-header header-style-one" id="beranda">
-            <div class="header-lower">
-                <div class="outer-box">
+            <div class="header-lower d-flex align-items-center justify-content-between">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="{{ asset('images/logo_aloutdoor.png') }}" alt="logo" style="height: 100px;">
+                    </a>
+                </div>
+                <div class="outer-box d-flex align-items-center justify-content-between w-100">
                     <div class="menu-area">
                         <!--Mobile Navigation Toggler-->
                         <div class="mobile-nav-toggler">
@@ -103,36 +108,84 @@
                             </div>
                         </nav>
                     </div>
-                    <div class="menu-right-content">
-                        <div class="support-box">
-                            <div class="icon"><img src="{{ asset ('images/logo_whatsapp.png') }}" alt="whatsapp"></div>
-                            <span>Hubungi Kami</span>
-                            <h5><a href="https://wa.me/6288989061400">+62 889-8906-1400</a></h5>
+                    <div class="outer-box d flex- align-items-center w100">
+                        <div class="menu-area">
+                            <!-- navigasi utama -->
                         </div>
-                        <div class="cart-box"><a href="index.html"><i class="flaticon-shopping-cart"></i></a></div>
+                    </div>
+                    <div class="d-flex align-items-center ms-auto" style="gap: 50px;">
+                        <a href="https://wa.me/6288989061400" target="_blank" class="text-decoration-none text-white">
+                            <i class="bi bi-whatsapp" style="font-size: 2rem; margin-right: 10px"></i>
+                        </a>
+                        <a href="index.html" class="text-white">
+                            <i class="flaticon-shopping-cart" style="font-size: 2rem"></i>
+                        </a>
+                        <a href="login.html" class="text-white">
+                            <i class="bi bi-person-circle" style="font-size: 2rem;"></i>
+                        </a>                              
                     </div>
                 </div>
             </div>
 
             <!--sticky Header-->
             <div class="sticky-header">
-                <div class="outer-box">
-                    <div class="menu-area">
-                        <nav class="main-menu clearfix">
-                            <!--Keep This Empty / Menu will come through Javascript-->
-                        </nav>
+                <div class="header-lower d-flex align-items-center justify-content-between">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="{{ asset('images/logo_aloutdoor.png') }}" alt="logo" style="height: 100px;">
+                        </a>
                     </div>
-                    <div class="menu-right-content">
-                        <div class="support-box">
-                            <div class="icon"><img src="{{ asset ('images/logo_whatsapp.png') }}" alt="chat-icon"></div>
-                            <span>Hubungi Kami</span>
-                            <h5><a href="https://wa.me/6288989061400">+62 889-8906-1400</a></h5>
+                    <div class="outer-box d-flex align-items-center justify-content-between w-100">
+                        <div class="menu-area">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler">
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                            </div>
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix">
+                                        <li class="current dropdown"><a href="#beranda">Beranda</a>
+                                            <ul>
+                                                <li><a href="#penawaran-spesial">Penawaran Spesial</a></li>
+                                                <li><a href="#tentang-kami">Tentang Kami</a></li>
+                                                <li><a href="#testimoni">Testimoni</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="index.html">Katalog</a>
+                                            <ul>
+                                                <li><a href="activities.html">Katalog Barang</a></li>
+                                                <li><a href="climbing.html">Katalog Opentrip</a></li>
+                                                <li><a href="adventure.html">Katalog Paket</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="index.html">Informasi Pemesanan</a></li>
+                                        <li class="dropdown"><a href="{{ url('/rekomendasi-wisata') }}">Rekomendasi Wisata</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
                         </div>
-                        <div class="cart-box"><a href="index.html"><i class="flaticon-shopping-cart"></i></a></div>
+                        <div class="outer-box d flex- align-items-center w100">
+                            <div class="menu-area">
+                                <!-- navigasi utama -->
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center ms-auto" style="gap: 50px;">
+                            <a href="https://wa.me/6288989061400" target="_blank" class="text-decoration-none text-white">
+                                <i class="bi bi-whatsapp" style="font-size: 2rem; margin-right: 10px"></i>
+                            </a>
+                            <a href="index.html" class="text-white">
+                                <i class="flaticon-shopping-cart" style="font-size: 2rem"></i>
+                            </a>
+                            <a href="login.html" class="text-white">
+                                <i class="bi bi-person-circle" style="font-size: 2rem;"></i>
+                            </a>                              
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
+        
         <!-- main-header end -->
 
         <!-- Mobile Menu  -->
@@ -155,7 +208,7 @@
                     <div class="auto-container">
                         <div class="content-box">
                             <div class="shape" style="background-image: url(assets/images/shape/shape-2.png);"></div>
-                            <span>Temukan Keajaiban di Setiap Sudut Alam</span>
+                            <span>Siap Bertualang? Sewa Alat Outdoor & Ikut Trip Tanpa Ribet!</span>
                             <h2>Petualangan Dimulai <br />dari Langkah Pertama</h2>
                         </div>
                     </div>
@@ -164,7 +217,7 @@
                     <div class="image-layer" style="background-image:url({{ asset ('images/sunset_semeru.jpg') }})"></div>
                     <div class="auto-container">
                         <div class="content-box">
-                            <span>Temukan Keajaiban di Setiap Sudut Alam</span>
+                            <span>Mulai Perjalananmu Bersama Aloutdoor!</span>
                             <h2>Setiap Langkah <br />Adalah Cerita Baru</h2>
                         </div>
                     </div>
