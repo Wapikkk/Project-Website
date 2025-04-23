@@ -259,6 +259,5 @@
         </section>
         <!-- testimoni end -->
 
-    </div>
 
 @endsection
