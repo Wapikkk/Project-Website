@@ -13,7 +13,7 @@
                     <div class="auto-container">
                         <div class="content-box">
                             <div class="shape" style="background-image: url(assets/images/shape/shape-2.png);"></div>
-                            <span>Siap Bertualang? Sewa Alat Outdoor & Ikut Trip Tanpa Ribet!</span>
+                            <span>Siap Bertualang? Sewa Alat Outdoor & Ikut Trip Tanpa Ribet Bareng Aloutdoor.id!</span>
                             <h2>Petualangan Dimulai <br />dari Langkah Pertama</h2>
                         </div>
                     </div>
@@ -22,7 +22,7 @@
                     <div class="image-layer" style="background-image:url({{ asset ('images/sunset_semeru.jpg') }})"></div>
                     <div class="auto-container">
                         <div class="content-box">
-                            <span>Mulai Perjalananmu Bersama Aloutdoor!</span>
+                            <span>Mulai Perjalananmu Bersama Aloutdoor.id!</span>
                             <h2>Setiap Langkah <br />Adalah Cerita Baru</h2>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                 <div class="upper-box centred">
                     <div class="sec-title">
                         <span class="sub-title">What We're Offering</span>
-                        <h2>Our Activities</h2>
+                        <h2>Siap Jelajah? Semua Kebutuhan Kamu Ada Disini!</h2>
                     </div>
                     <div class="row clearfix">
                         <div class="col-lg-4 col-md-6 col-sm-12 activities-block">
@@ -127,10 +127,10 @@
                                         <div class="icon-box">
                                             <div class="shape" style="background-image: url(assets/images/shape/shape-5.png);"></div>
                                             <div class="overlay-shape" style="background-image: url(assets/images/shape/shape-6.png);"></div>
-                                            <i class="flaticon-climbing"></i>
+                                            <i class="flaticon-tent"></i>
                                         </div>
-                                        <h3><a href="climbing.html">Climbing</a></h3>
-                                        <p>There are not many of passages of lorem ipsum available alteration in osten some form.</p>
+                                        <h3><a href="climbing.html">Sewa Perlengkapan</a></h3>
+                                        <p>Butuh perlengkapan outdoor? Kami menyediakan berbagai alat camping dan aktivitas luar ruangan yang siap pakai. Praktis, terjangkau, dan siap mendukung setiap langkah petualanganmu.</p>
                                         <div class="link"><a href="climbing.html">Read More</a></div>
                                     </div>
                                 </div>
@@ -146,8 +146,8 @@
                                             <div class="overlay-shape" style="background-image: url(assets/images/shape/shape-6.png);"></div>
                                             <i class="flaticon-adventurer"></i>
                                         </div>
-                                        <h3><a href="adventure.html">Adventure</a></h3>
-                                        <p>There are not many of passages of lorem ipsum available alteration in osten some form.</p>
+                                        <h3><a href="adventure.html">Open Trip</a></h3>
+                                        <p>Ingin menjelajah tanpa ribet? Gabung dalam Open Trip kami dan nikmati serunya perjalanan bersama teman-teman baru dengan rute yang telah dikurasi oleh tim profesional kami.</p>
                                         <div class="link"><a href="adventure.html">Read More</a></div>
                                     </div>
                                 </div>
@@ -163,8 +163,8 @@
                                             <div class="overlay-shape" style="background-image: url(assets/images/shape/shape-6.png);"></div>
                                             <i class="flaticon-tent"></i>
                                         </div>
-                                        <h3><a href="camping.html">Camping</a></h3>
-                                        <p>There are not many of passages of lorem ipsum available alteration in osten some form.</p>
+                                        <h3><a href="camping.html">Paket Lebih Hemat</a></h3>
+                                        <p>Bingung mau sewa apa aja? Tenang, kami udah siapin paket perlengkapan yang lengkap dan praktis! gak perlu ribet milih satu-satu. Hemat waktu, hemat biaya, tinggal pakai!</p>
                                         <div class="link"><a href="camping.html">Read More</a></div>
                                     </div>
                                 </div>
