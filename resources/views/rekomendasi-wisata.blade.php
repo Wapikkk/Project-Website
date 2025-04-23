@@ -96,7 +96,7 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </li> 
+                                    </li>
                                     <li class="dropdown"><a href="index.html">Activities</a>
                                         <ul>
                                             <li><a href="activities.html">Activities</a></li>
@@ -144,8 +144,8 @@
                                                         <li><a href="cta-element.html">Cta Block</a></li>
                                                         <li><a href="clients-element.html">Clients Block</a></li>
                                                     </ul>
-                                                </div>                                      
-                                            </div>                                            
+                                                </div>
+                                            </div>
                                         </div>
                                     </li>
                                     <li class="current dropdown"><a href="index.html">Blog</a>
@@ -153,7 +153,7 @@
                                             <li><a href="blog.html">Our Blog</a></li>
                                             <li><a href="blog-details.html">Blog Details</a></li>
                                         </ul>
-                                    </li>                              
+                                    </li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
@@ -225,7 +225,7 @@
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><i class="fas fa-times"></i></div>
-            
+
             <nav class="menu-box">
                 <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>

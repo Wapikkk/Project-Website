@@ -1,203 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+@extends('master.app')
 
-<title>Aloutdoor.id</title>
+@section('title', 'Home')
 
-<!-- Fav Icon -->
-<link rel="icon" href="{{ asset('images/logo_aloutdoor.png') }}" type="image/x-icon">
-
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-<!-- Stylesheets -->
-<link href="{{asset('css/font-awesome-all.css')}}" rel="stylesheet">
-<link href="{{asset('css/flaticon.css')}}" rel="stylesheet">
-<link href="{{asset('css/owl.css')}}" rel="stylesheet">
-<link href="{{asset('css/bootstrap.css')}}" rel="stylesheet">
-<link href="{{asset('css/jquery.fancybox.min.css')}}" rel="stylesheet">
-<link href="{{asset('css/animate.css')}}" rel="stylesheet">
-<link href="{{asset('css/color.css')}}" rel="stylesheet">
-<link href="{{asset('css/style.css')}}" rel="stylesheet">
-<link href="{{asset('css/responsive.css')}}" rel="stylesheet">
-
-<!-- Bootstrap Icon -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-</head>
-
-
-<!-- page wrapper -->
-<body>
-
-    <div class="boxed_wrapper">
-
-
-        <!-- preloader -->
-        <div class="preloader">
-            <div class="boxes">
-                <div class="box">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="box">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="box">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="box">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-        </div>
-        <!-- preloader end -->
-
-
-        <!-- main header -->
-        <header class="main-header header-style-one" id="beranda">
-            <div class="header-lower d-flex align-items-center justify-content-between">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="{{ asset('images/logo_aloutdoor.png') }}" alt="logo" style="height: 100px;">
-                    </a>
-                </div>
-                <div class="outer-box d-flex align-items-center justify-content-between w-100">
-                    <div class="menu-area">
-                        <!--Mobile Navigation Toggler-->
-                        <div class="mobile-nav-toggler">
-                            <i class="icon-bar"></i>
-                            <i class="icon-bar"></i>
-                            <i class="icon-bar"></i>
-                        </div>
-                        <nav class="main-menu navbar-expand-md navbar-light">
-                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="#beranda">Beranda</a>
-                                        <ul>
-                                            <li><a href="#penawaran-spesial">Penawaran Spesial</a></li>
-                                            <li><a href="#tentang-kami">Tentang Kami</a></li>
-                                            <li><a href="#testimoni">Testimoni</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="index.html">Katalog</a>
-                                        <ul>
-                                            <li><a href="activities.html">Katalog Barang</a></li>
-                                            <li><a href="climbing.html">Katalog Opentrip</a></li>
-                                            <li><a href="adventure.html">Katalog Paket</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="index.html">Informasi Pemesanan</a></li>
-                                    <li class="dropdown"><a href="{{ url('/rekomendasi-wisata') }}">Rekomendasi Wisata</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="outer-box d flex- align-items-center w100">
-                        <div class="menu-area">
-                            <!-- navigasi utama -->
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center ms-auto" style="gap: 50px;">
-                        <a href="https://wa.me/6288989061400" target="_blank" class="text-decoration-none text-white">
-                            <i class="bi bi-whatsapp" style="font-size: 2rem; margin-right: 10px"></i>
-                        </a>
-                        <a href="index.html" class="text-white">
-                            <i class="flaticon-shopping-cart" style="font-size: 2rem"></i>
-                        </a>
-                        <a href="login.html" class="text-white">
-                            <i class="bi bi-person-circle" style="font-size: 2rem;"></i>
-                        </a>                              
-                    </div>
-                </div>
-            </div>
-
-            <!--sticky Header-->
-            <div class="sticky-header">
-                <div class="header-lower d-flex align-items-center justify-content-between">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="{{ asset('images/logo_aloutdoor.png') }}" alt="logo" style="height: 100px;">
-                        </a>
-                    </div>
-                    <div class="outer-box d-flex align-items-center justify-content-between w-100">
-                        <div class="menu-area">
-                            <!--Mobile Navigation Toggler-->
-                            <div class="mobile-nav-toggler">
-                                <i class="icon-bar"></i>
-                                <i class="icon-bar"></i>
-                                <i class="icon-bar"></i>
-                            </div>
-                            <nav class="main-menu navbar-expand-md navbar-light">
-                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                    <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="#beranda">Beranda</a>
-                                            <ul>
-                                                <li><a href="#penawaran-spesial">Penawaran Spesial</a></li>
-                                                <li><a href="#tentang-kami">Tentang Kami</a></li>
-                                                <li><a href="#testimoni">Testimoni</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="index.html">Katalog</a>
-                                            <ul>
-                                                <li><a href="activities.html">Katalog Barang</a></li>
-                                                <li><a href="climbing.html">Katalog Opentrip</a></li>
-                                                <li><a href="adventure.html">Katalog Paket</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="index.html">Informasi Pemesanan</a></li>
-                                        <li class="dropdown"><a href="{{ url('/rekomendasi-wisata') }}">Rekomendasi Wisata</a></li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="outer-box d flex- align-items-center w100">
-                            <div class="menu-area">
-                                <!-- navigasi utama -->
-                            </div>
-                        </div>
-                        <div class="d-flex align-items-center ms-auto" style="gap: 50px;">
-                            <a href="https://wa.me/6288989061400" target="_blank" class="text-decoration-none text-white">
-                                <i class="bi bi-whatsapp" style="font-size: 2rem; margin-right: 10px"></i>
-                            </a>
-                            <a href="index.html" class="text-white">
-                                <i class="flaticon-shopping-cart" style="font-size: 2rem"></i>
-                            </a>
-                            <a href="login.html" class="text-white">
-                                <i class="bi bi-person-circle" style="font-size: 2rem;"></i>
-                            </a>                              
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-        <!-- main-header end -->
-
-        <!-- Mobile Menu  -->
-        <div class="mobile-menu">
-            <div class="menu-backdrop"></div>
-            <div class="close-btn"><i class="fas fa-times"></i></div>
-
-            <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
-                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-            </nav>
-        </div><!-- End Mobile Menu -->
+@section('content')
 
 
         <!-- banner-section -->
@@ -225,6 +30,85 @@
             </div>
         </section>
         <!-- banner-section end -->
+
+
+        <!-- about-section -->
+        <section class="about-section bg-color-1" id="tentang-kami">
+            {{-- <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-4.png);"></div> --}}
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-12">
+                        <div class="sec-title text-center">
+                            <span class="sub-title">Tentang Kami</span>
+                            <h2>Selamat Datang di Aloutdoor.id</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix flex-row-reverse">
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                        <div class="content_block_one">
+                            <div class="content-box">
+                                <div class="text p-0 mb-1">
+                                    <p>Siap untuk petualangan seru? Hanya di Aloutdoor.id! Di sini kamu bisa sewa alat camping,
+                                        ikut opentrip ke Bromo, atau seru-seruan naik motor trail. Semua serba gampang,
+                                        aman, dan pastinya bikin petualangan kamu makin berkesan!.</p>
+                                </div>
+                                <ul class="list-style-one clearfix">
+                                    <li>Persewaan alat-alat outdoor.</li>
+                                    <li>Private Trip & Open Trip Bromo.</li>
+                                    <li>Persewaan motor trail.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                        <div class="image_block_one">
+                            <div class="image-box">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.5474293070242!2d112.59500837607811!3d-7.942242079113416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7883add7908f57%3A0xac4bc13c3d0808a4!2sAl%20Outdoor.id%20(Sewa%20Tenda%20%26%20Motor%20Trail%20Murah%20Malang)!5e0!3m2!1sen!2sid!4v1745255964974!5m2!1sen!2sid"
+                                    width="100%"
+                                    height="300"
+                                    style="border:0; border-radius: 10px;"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-12">
+                        <div class="sec-title text-center">
+                            <span class="sub-title">Follow Us On</span>
+                            <div class="row justify-content-center">
+                                <div class="col-auto">
+                                    <a href="https://www.instagram.com/aloutdoor.id?igsh=MWM0NXR1dDZ1ZHF0eg==" target="_blank" class="text-decoration-none text-dark">
+                                        <i class="bi bi-instagram mx-2" style="font-size: 2rem"></i>
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://www.tiktok.com/@aloutdoor.id" target="_blank" class="text-decoration-none text-dark">
+                                        <i class="bi bi-tiktok mx-2" style="font-size: 2rem"></i>
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="mailto:aloutdoor.id@gmail.com" class="text-decoration-none text-dark">
+                                        <i class="bi bi-envelope-at mx-2" style="font-size: 2rem"></i>
+                                    </a>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://wa.me/6288989061400" target="_blank" class="text-decoration-none text-dark">
+                                        <i class="bi bi-whatsapp mx-2" style="font-size: 2rem"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tentang-kami end -->
+
 
         <!-- penawaran-spesial -->
         <section class="activities-section sec-pad" id="penawaran-spesial">
@@ -305,83 +189,6 @@
         </section>
         <!-- penawaran-spesial end -->
 
-        <!-- about-section -->
-        <section class="about-section bg-color-1" id="tentang-kami">
-            {{-- <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-4.png);"></div> --}}
-            <div class="auto-container">
-                <div class="row clearfix">
-                    <div class="col-12">
-                        <div class="sec-title text-center">
-                            <span class="sub-title">Tentang Kami</span>
-                            <h2>Selamat Datang di Aloutdoor.id</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row clearfix flex-row-reverse">
-                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                        <div class="content_block_one">
-                            <div class="content-box">
-                                <div class="text p-0 mb-1">
-                                    <p>Siap untuk petualangan seru? Hanya di Aloutdoor.id! Di sini kamu bisa sewa alat camping,
-                                        ikut opentrip ke Bromo, atau seru-seruan naik motor trail. Semua serba gampang,
-                                        aman, dan pastinya bikin petualangan kamu makin berkesan!.</p>
-                                </div>
-                                <ul class="list-style-one clearfix">
-                                    <li>Persewaan alat-alat outdoor.</li>
-                                    <li>Private Trip & Open Trip Bromo.</li>
-                                    <li>Persewaan motor trail.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                        <div class="image_block_one">
-                            <div class="image-box">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.5474293070242!2d112.59500837607811!3d-7.942242079113416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7883add7908f57%3A0xac4bc13c3d0808a4!2sAl%20Outdoor.id%20(Sewa%20Tenda%20%26%20Motor%20Trail%20Murah%20Malang)!5e0!3m2!1sen!2sid!4v1745255964974!5m2!1sen!2sid"
-                                    width="100%"
-                                    height="300"
-                                    style="border:0; border-radius: 10px;"
-                                    allowfullscreen=""
-                                    loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade">
-                                </iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row clearfix">
-                    <div class="col-12">
-                        <div class="sec-title text-center">
-                            <span class="sub-title">Follow Us On</span>
-                            <div class="row justify-content-center">
-                                <div class="col-auto">
-                                    <a href="https://www.instagram.com/aloutdoor.id?igsh=MWM0NXR1dDZ1ZHF0eg==" target="_blank" class="text-decoration-none text-dark">
-                                        <i class="bi bi-instagram mx-2" style="font-size: 2rem"></i>
-                                    </a>
-                                </div>
-                                <div class="col-auto">
-                                    <a href="https://www.tiktok.com/@aloutdoor.id" target="_blank" class="text-decoration-none text-dark">
-                                        <i class="bi bi-tiktok mx-2" style="font-size: 2rem"></i>
-                                    </a>
-                                </div>
-                                <div class="col-auto">
-                                    <a href="mailto:aloutdoor.id@gmail.com" class="text-decoration-none text-dark">
-                                        <i class="bi bi-envelope-at mx-2" style="font-size: 2rem"></i>
-                                    </a>
-                                </div>
-                                <div class="col-auto">
-                                    <a href="https://wa.me/6288989061400" target="_blank" class="text-decoration-none text-dark">
-                                        <i class="bi bi-whatsapp mx-2" style="font-size: 2rem"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- tentang-kami end -->
-
 
         <!-- testimoni -->
         <section class="testimonial-section bg-color-2" id="testimoni">
@@ -454,22 +261,4 @@
 
     </div>
 
-
-    <!-- jequery plugins -->
-    <script src="{{asset ('js/jquery.js')}}"></script>
-    <script src="{{asset ('js/popper.min.js')}}"></script>
-    <script src="{{asset ('js/bootstrap.min.js')}}"></script>
-    <script src="{{asset ('js/owl.js')}}"></script>
-    <script src="{{asset ('js/wow.js')}}"></script>
-    <script src="{{asset ('js/validation.js')}}"></script>
-    <script src="{{asset ('js/jquery.fancybox.js')}}"></script>
-    <script src="{{asset ('js/appear.js')}}"></script>
-    <script src="{{asset ('js/scrollbar.js')}}"></script>
-    <script src="{{asset ('js/parallax-scroll.js')}}"></script>
-    <script src="{{asset ('js/isotope.js')}}"></script>
-
-    <!-- main-js -->
-    <script src="{{asset ('js/script.js')}}"></script>
-
-</body><!-- End of .page_wrapper -->
-</html>
+@endsection
