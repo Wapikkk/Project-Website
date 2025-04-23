@@ -222,33 +222,36 @@
                             <li class="accordion block active-block">
                                 <div class="acc-btn active">
                                     <div class="icon-outer"></div>
-                                    <h5>Nullam scelerisque eu lacus quis ultrices.</h5>
+                                    <h5>Bagaimana cara menyewa alat di website ini ?</h5>
                                 </div>
                                 <div class="acc-content current">
                                     <div class="text">
-                                        <p>There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet.</p>
+                                        <p>Untuk info persewaan alat-alat outdoor, kamu bisa klik Informasi Pemesanan yang ada di bar navigasi ya !</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="accordion block">
                                 <div class="acc-btn">
                                     <div class="icon-outer"></div>
-                                    <h5>Cras faucibus fringilla orci in sollicitudin</h5>
+                                    <h5>Apakah ada paket hemat atau member?</h5>
                                 </div>
                                 <div class="acc-content">
                                     <div class="text">
-                                        <p>There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet.</p>
+                                        <p>Tentu dong! Kami menyediakan paket hemat agar budget kamu aman di kantong. Selain itu, kamu bisa mendapatkan diskon 10% lho jika daftar member🤩
+                                            untuk info lengkapnya bisa cek di navigasi Informasi Pesanan ya !🙌🏻</p>
                                     </div>
                                 </div>
                             </li>
                             <li class="accordion block">
                                 <div class="acc-btn">
                                     <div class="icon-outer"></div>
-                                    <h5>Nullam scelerisque eu lacus quis ultrices.</h5>
+                                    <h5>Bagaimana jika saya ingin membatalkan atau mengubah jadwal sewa?</h5>
                                 </div>
                                 <div class="acc-content">
                                     <div class="text">
-                                        <p>There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet.</p>
+                                        <p>Pembatalan bisa dilakukan maksimal H-2 sebelum tanggal sewa, dan akan 
+                                            dikenakan potongan biaya administrasi. Perubahan jadwal bisa diajukan selama alat masih tersedia.
+                                        </p>
                                     </div>
                                 </div>
                             </li>
