@@ -64,7 +64,7 @@
                                     </figure>
                                     <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <h3>Gunung Butak - Blitar</h3>
-                                        <p>Kalau kamu pendaki yang suka ketenangan dan ingin merasakan suasana hiking yang lebih sepi, Gunung Butak bisa jadi pilihan pas. Berada di perbatasan Malang dan Blitar, gunung ini punya jalur menantang tapi damai, jauh dari keramaian. Di puncak, kamu akan disambut sabana luas dan panorama 360 derajat yang luar biasa. Suhunya bisa sangat dingin di malam hari, jadi siapkan perlengkapan camping yang lengkap. Cocok untuk me time atau quality time bareng sahabat pendaki.</p>
+                                        <p>Kalau kamu pendaki yang suka ketenangan dan ingin merasakan suasana hiking yang lebih sepi, Gunung Butak bisa jadi pilihan pas. Berada di perbatasan Malang dan Blitar, gunung ini punya jalur menantang tapi damai, jauh dari keramaian. Di puncak, kamu akan disambut sabana luas dan panorama 360 derajat yang luar biasa. Sunrise dari puncaknya juga jadi momen magis yang sayang untuk dilewatkan, namun suhunya bisa sangat dingin di malam hari, jadi siapkan perlengkapan camping lengkap. Cocok untuk me time atau quality time bareng sahabat pendaki.</p>
                                         {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
                                         </div> --}}
@@ -78,7 +78,7 @@
                                     </figure>
                                     <div class="lower-content d-flex flex-column justify-content-center m-0" style="flex: 1;">
                                         <h3>Pantai Watu Leter - Malang</h3>
-                                        <p>Lagi pengin healing tapi bosan dengan pantai yang ramai dan penuh spot selfie? Coba deh ke Pantai Watu Leter. Terletak di Malang Selatan, pantai ini masih alami dan sepi, cocok buat menikmati suasana damai ditemani suara ombak dan angin laut. Pasir putih, karang unik, dan tebing eksotis jadi daya tarik utamanya. Serunya, tempat ini juga jadi habitat penyu! Kalau beruntung, kamu bisa lihat pelepasan tukik. Pas buat camping ringan, baca buku di hammock, atau jalan santai bareng orang tersayang.</p>
+                                        <p>Lagi pingin healing tapi bosan dengan pantai yang ramai dan penuh spot selfie? Coba deh ke Pantai Watu Leter. Terletak di Malang Selatan, pantai ini masih alami dan sepi, cocok buat menikmati suasana damai ditemani suara ombak dan angin laut. Pasir putih, karang unik, dan tebing eksotis jadi daya tarik utamanya. Serunya, tempat ini juga jadi habitat penyu! Kalau beruntung, kamu bisa lihat pelepasan tukik yang menggemaskan. Pas buat camping ringan, baca buku di hammock, atau jalan santai bareng orang tersayang.</p>
                                         {{-- <div class="link">
                                             <a href="blog-details.html">Read More</a>
                                         </div> --}}

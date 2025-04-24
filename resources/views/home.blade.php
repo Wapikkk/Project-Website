@@ -129,7 +129,7 @@
                                             <div class="overlay-shape" style="background-image: url(assets/images/shape/shape-6.png);"></div>
                                             <i class="flaticon-tent"></i>
                                         </div>
-                                        <h3><a href="climbing.html">Sewa Perlengkapan</a></h3>
+                                        <h3><a href="{{ url('/katalog-barang') }}">Sewa Perlengkapan</a></h3>
                                         <p>Butuh perlengkapan outdoor? Kami menyediakan berbagai alat camping dan 
                                             aktivitas luar ruangan yang siap pakai. Praktis, terjangkau, dan siap mendukung setiap langkah petualanganmu.
                                         </p>

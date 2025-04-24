@@ -6,16 +6,15 @@
 
         <!-- Page Title -->
         <section class="page-title centred">
-            <div class="bg-layer" style="background-image: url(assets/images/background/page-title.jpg);"></div>
+            <div class="bg-layer" style="background-image: url({{ asset ('images/katalog-barang.jpg') }});"></div>
             <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-12.png);"></div>
             <div class="auto-container">
                 <div class="content-box">
                     <ul class="bread-crumb clearfix">
-                        <li><a href="index.html">Home</a></li>
-                        <li>News Block 01</li>
+                        <li>Yuk, intip katalognya dan temukan perlengkapan outdoor yang siap nemenin petualangan serumu!</li>
                     </ul>
                     <div class="title">
-                        <h1>Elements</h1>
+                        <h1>Katalog Persewaan Alat Outdoor</h1>
                     </div>
                 </div>
             </div>
@@ -46,7 +45,7 @@
                                         <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
                                         <li><i class="far fa-comments"></i><a href="blog-details.html">2 Comments</a></li>
                                     </ul>
-                                    <h3><a href="blog-details.html">Get Ready for the Summer Camp</a></h3>
+                                    <h3><a href="blog-details.html">Tenda Kapasitas 2-3 Orang Ultra Light Double Layer</a></h3>
                                 </div>
                             </div>
                         </div>
