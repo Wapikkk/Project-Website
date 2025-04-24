@@ -11,11 +11,11 @@
             <div class="auto-container">
                 <div class="content-box">
                     <ul class="bread-crumb clearfix">
-                        <li><a href="index.html">Home</a></li>
-                        <li>News Block 01</li>
+                        {{-- <li><a href="index.html">Home</a></li> --}}
+                        <li>Pilih Paket Lebih Hemat!</li>
                     </ul>
                     <div class="title">
-                        <h1>Elements</h1>
+                        <h1>Katalog Paket</h1>
                     </div>
                 </div>
             </div>
