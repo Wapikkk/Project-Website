@@ -6,7 +6,7 @@
 
         <!-- Page Title -->
         <section class="page-title centred">
-            <div class="bg-layer" style="background-image: url(assets/images/background/page-title.jpg);"></div>
+            <div class="bg-layer" style="background-image: url({{ asset ('images/katalog_paket.jpg') }});"></div>
             <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-12.png);"></div>
             <div class="auto-container">
                 <div class="content-box">
