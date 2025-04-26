@@ -88,7 +88,7 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="{{ url ('/home') }}">Beranda</a>
+                                    <li class="{{ request()->is('home') ? 'active' : '' }} dropdown"><a href="{{ url ('/home') }}">Beranda</a>
                                         <ul>
                                             <li><a href="#tentang-kami">Tentang Kami</a></li>
                                             <li><a href="#penawaran-spesial">Penawaran Spesial</a></li>
@@ -102,8 +102,8 @@
                                             <li><a href="{{ url('/katalog-paket') }}">Katalog Paket</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="index.html">Informasi Pemesanan</a></li>
-                                    <li class="dropdown"><a href="{{ url('/rekomendasi-wisata') }}">Rekomendasi Wisata</a></li>
+                                    <li class="{{ request()->is('informasi-pemesanan') ? 'active' : '' }} dropdown"><a href="index.html">Informasi Pemesanan</a></li>
+                                    <li class="{{ request()->is('rekomendasi-wisata') ? 'active' : '' }} dropdown"><a href="{{ url('/rekomendasi-wisata') }}">Rekomendasi Wisata</a></li>
                                 </ul>
                             </div>
                         </nav>

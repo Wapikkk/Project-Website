@@ -961,8 +961,16 @@ php {
     transition: all 500ms ease;
 }
 
+/* Move the active rule after the current rule to give it higher precedence */
 .main-menu .navigation > li.current > a,
 .main-menu .navigation > li:hover > a {
+    /* color: #ffffff !important; */ /* Remove or comment out this line */
+}
+
+/* Place this rule after the .current rule */
+.main-menu .navigation > li.active > a,
+.main-menu .navigation > li.current > a {
+    color: #ff6f29 !important;
 }
 
 .main-menu .navigation > li > ul,
