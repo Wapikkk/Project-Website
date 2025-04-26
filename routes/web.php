@@ -32,3 +32,7 @@ Route::get('/katalog-barang', function(){
 Route::get('/katalog-paket', function(){
     return view('katalog-paket');
 });
+
+Route::get('/masuk', function(){
+    return view('login');
+});
