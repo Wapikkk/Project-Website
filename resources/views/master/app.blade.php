@@ -95,11 +95,15 @@
                                             <li><a href="#testimoni">Testimoni</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="javascript:void(0)">Katalog</a>
+                                    <li class="{{ request()->is('katalog-barang', 'katalog-paket') ? 'active' : '' }} dropdown"><a href="javascript:void(0)">Katalog</a>
                                         <ul>
-                                            <li><a href="{{ url( '/katalog-barang') }}">Katalog Barang</a></li>
+                                            <li class="{{ request()->is('katalog-barang') ? 'active' : '' }}">
+                                                <a href="{{ url('/katalog-barang') }}">Katalog Barang</a>
+                                            </li>
                                             <li><a href="climbing.html">Katalog Opentrip</a></li>
-                                            <li><a href="{{ url('/katalog-paket') }}">Katalog Paket</a></li>
+                                            <li class="{{ request()->is('katalog-paket') ? 'active' : '' }}">
+                                                <a href="{{ url('/katalog-paket') }}">Katalog Paket</a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="{{ request()->is('informasi-pemesanan') ? 'active' : '' }} dropdown"><a href="index.html">Informasi Pemesanan</a></li>

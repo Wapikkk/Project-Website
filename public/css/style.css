@@ -973,6 +973,10 @@ php {
     color: #ff6f29 !important;
 }
 
+.main-menu .navigation > li > ul > li.active > a {
+    color: #ff6f29 !important;
+}
+
 .main-menu .navigation > li > ul,
 .main-menu .navigation > li > .megamenu {
     position: absolute;
