@@ -22,9 +22,9 @@ Route::get('/rekomendasi-wisata', function () {
 });
 
 Route::get('/katalog-barang', function(){
-    return view('/katalog-barang');
+    return view('katalog-barang');
 });
 
 Route::get('/katalog-paket', function(){
-    return view('/katalog-paket');
+    return view('katalog-paket');
 });
