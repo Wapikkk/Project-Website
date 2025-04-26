@@ -176,17 +176,10 @@
                     </div>
                 </div>
                 <div class="lower-box">
-                    <div class="sec-title light">
-                        <span class="sub-title">Get Ready For The</span>
-                        <h3>Summer of a Lifetime</h3>
-                    </div>
-                    <div class="text">
-                        <p>There are not many of lorem ipsum <br />available alteration.</p>
-                    </div>
-                    <div class="support-box">
-                        <p>Call Anytime</p>
-                        <h3><a href="tel:12463330079">+1- ( 246 ) 333 - 0079</a></h3>
-                    </div>
+                    <div class="sec-title light text-center">
+                        <span class="sub-title">Karena setiap perjalanan bukan hanya soal tempat, tapi pengalaman yang mengubah hidup.</span>
+                        <h3>Temukan Dunia, Temukan Dirimu</h3>
+                    </div>  
                 </div>
             </div>
         </section>

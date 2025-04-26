@@ -38,7 +38,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news-1.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/katalog-dummy.jpg') }}" alt=""></a></figure>
                                 <div class="lower-content">
                                     <span class="post-date">20 oct, 2021</span>
                                     <ul class="post-info clearfix">
