@@ -33,6 +33,10 @@ Route::get('/katalog-paket', function(){
     return view('katalog-paket');
 });
 
+Route::get('/katalog-barang', function(){
+    return view('katalog-barang');
+});
+
 Route::get('/masuk', function(){
     return view('login');
 });
