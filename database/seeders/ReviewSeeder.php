@@ -42,6 +42,48 @@ class ReviewSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+            [
+                'name' => 'Fitria Ramadhani',
+                'review' => 'Pelayanan fast respon sekalii dn murah bgt sewanyaa, recom bgtttt 👍🏼👍🏼',
+                'rating' => 5,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'Vira Putri',
+                'review' => 'Tempat persewaan alat camping  yg lengkap bgt Pelayanannya 10/10 . Bisa minta jasa utk bantu pasang dan bongkarnya jg jd ga repot. Next trip pasti sewa kesini lg sih😁',
+                'rating' => 5,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'trashurlog 33',
+                'review' => 'Baru pertama kali sewa di tempat ini dan BAKALAN SEWA LAGI KESINI! Pelayanan baik, harga oke, kualitas barang oke',
+                'rating' => 5,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'Dwi Cahya Firmansyah',
+                'review' => 'Pelayanan bagus, penjaganya ramah, informatif. Yang mau sewa alat camp untuk di malang bisa langsung mampir kesini',
+                'rating' => 5,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'Miftahul Djannah',
+                'review' => 'Mantap admin fast respon, infonya lengkap ada diskon pula',
+                'rating' => 5,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'Siti Mariyam',
+                'review' => 'Bagi mahasiswa ada diskon 10%, admin responnya cepet',
+                'rating' => 5,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
         ];
 
         DB::table('reviews')->insert($reviews);
