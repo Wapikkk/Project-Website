@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\VacationController;
+use App\Models\Vacation;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -17,9 +19,11 @@ Route::get('/customer', function () {
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-Route::get('/rekomendasi-wisata', function () {
-    return view('rekomendasi-wisata');
-});
+// Route::get('/rekomendasi-wisata', function () {
+//     return view('rekomendasi-wisata');
+// });
+
+Route::get('/rekomendasi-wisata', [VacationController::class, 'index'])->name('rekomendasi-wisata');
 
 Route::get('/katalog-barang', function(){
     return view('katalog-barang');
