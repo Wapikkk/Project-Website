@@ -13,15 +13,7 @@ Route::get('/customer', function () {
     return view('customer');
 });
 
-// Route::get('/home', function(){
-//     return view('home');
-// });
-
 Route::get('/home', [HomeController::class, 'index'])->name('home');
-
-// Route::get('/rekomendasi-wisata', function () {
-//     return view('rekomendasi-wisata');
-// });
 
 Route::get('/rekomendasi-wisata', [VacationController::class, 'index'])->name('rekomendasi-wisata');
 
@@ -31,4 +23,10 @@ Route::get('/katalog-barang', function(){
 
 Route::get('/katalog-paket', function(){
     return view('katalog-paket');
+});
+
+// Route Admin
+
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
 });
