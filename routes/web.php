@@ -29,4 +29,10 @@ Route::get('/katalog-paket', function(){
 
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
-});
+})->name('admin.dashboard');
+
+Route::get('/admin/blog', [VacationController::class, 'showBlogAdmin'])->name('admin.show.blog');
+Route::get('/admin/blog/{id}', [VacationController::class, 'showBlogDetail'])->name('admin.detail.blog');
+Route::get('/blog/add', [VacationController::class, 'showAddBlog'])->name('admin.add.blog');
+Route::post('/blog/add', [VacationController::class, 'store'])->name('admin.add.blog.store');
+Route::delete('/blog/{id}', [VacationController::class, 'destroy'])->name('admin.blog.delete');
