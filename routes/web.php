@@ -37,6 +37,10 @@ Route::get('/katalog-barang', function(){
     return view('katalog-barang');
 });
 
+Route::get('/katalog-opentrip', function(){
+    return view('katalog-opentrip');
+});
+
 Route::get('/masuk', function(){
     return view('login');
 });
