@@ -126,7 +126,7 @@
                         <a href="index.html" class="text-white">
                             <i class="flaticon-shopping-cart" style="font-size: 2rem"></i>
                         </a>
-                        <a href="login.html" class="text-white">
+                        <a href="{{ url ('/masuk') }}" class="text-white">
                             <i class="bi bi-person-circle" style="font-size: 2rem;"></i>
                         </a>
                     </div>
@@ -180,11 +180,11 @@
                         <div class="d-flex align-items-center ms-auto" style="gap: 50px;">
                             <a href="https://wa.me/6288989061400" target="_blank" class="text-decoration-none text-white">
                                 <i class="bi bi-whatsapp" style="font-size: 2rem; margin-right: 10px"></i>
-                            </a>
+                            </a> 
                             <a href="index.html" class="text-white">
                                 <i class="flaticon-shopping-cart" style="font-size: 2rem"></i>
                             </a>
-                            <a href="login.html" class="text-white">
+                            <a href="{{ url ('/masuk') }}" class="text-white">
                                 <i class="bi bi-person-circle" style="font-size: 2rem;"></i>
                             </a>
                         </div>

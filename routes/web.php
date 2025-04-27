@@ -9,10 +9,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/customer', function () {
-    return view('customer');
-});
-
 // Route::get('/home', function(){
 //     return view('home');
 // });

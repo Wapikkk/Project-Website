@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aloutdoor.id</title>
-    <link rel="stylesheet" href="{{ asset('images/logo_aloutdoor.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('images/logo_aloutdoor.png') }}" type="image/x-icon">
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="{{ asset ('login/css/bootstrap/bootstrap.min.css')}}" />
@@ -24,9 +24,40 @@
     <link rel="stylesheet" href="{{ asset ('login/css/responsive.css')}}" />
   </head>
   <body>
+      <!-- preloader -->
+      <div class="preloader">
+        <div class="boxes">
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+  <!-- preloader end -->
+
     <main class="overflow-hddien position-relative">
-      <div class="videoBG">
-        <video src="assets/video/bgVideo.mp4" loop muted autoplay></video>
+      <div class="background">
+        <div class="image-layer" style="background-image:url({{ asset('images/sunset_bromo.jpg') }})"></div>
       </div>
 
       <!-- container -->
