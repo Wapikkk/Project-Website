@@ -70,85 +70,41 @@
           c
         >
           <!-- heading -->
-          <h1 class="mainHeading">Find Accessible <br />Homes To Rent</h1>
+          <h1 class="mainHeading">Login</h1>
           <div class="row">
             <!-- Form Start -->
             <div class="col-md-12">
               <div class="textField">
                 <div class="fieldInner">
-                  <i class="fa-solid fa-location-dot"></i>
                   <input
                     type="text"
-                    name="location"
-                    placeholder="Location..."
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="textField">
-                <label>Min Price</label>
-                <div class="fieldInner">
-                  <select name="min">
-                    <option value="No Min">No Min</option>
-                    <option value="$20">$20</option>
-                    <option value="$60">$60</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="textField">
-                <label>Max Price</label>
-                <div class="fieldInner">
-                  <select name="max">
-                    <option value="No Max">No Max</option>
-                    <option value="$40">$40</option>
-                    <option value="$60">$80</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="textField">
-                <label>Property Type</label>
-                <div class="fieldInner">
-                  <select name="property">
-                    <option value="">Select Category</option>
-                    <option value="Outdoor">Outdoor</option>
-                    <option value="Indoor">Indoor</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="textField">
-                <label>Bed Rooms</label>
-                <div class="fieldInner">
-                  <select name="room">
-                    <option value="No Min">No Min</option>
-                    <option value="3">3</option>
-                    <option value="1">1</option>
-                  </select>
+                    placeholder="Username" required>
+                  <i class="fa-solid fa-user"></i>
                 </div>
               </div>
             </div>
             <div class="col-md-12">
               <div class="textField">
-                <label>Property Location</label>
                 <div class="fieldInner">
-                  <select name="location">
-                    <option value="All Cities">All Cities</option>
-                    <option value="NY">New York</option>
-                    <option value="NJ">New Jersey</option>
-                  </select>
+                  <input type="password"
+                  placeholder="Password" required>
+                  <i class='fa-solid fa-lock'></i>
                 </div>
               </div>
             </div>
           </div>
 
+          <div class="remember-forgot">
+            <label><input type="checkbox"> Ingatkan saya</label>
+            <a href="#">Lupa kata sandi?</a>
+          </div>
+
           <!-- Submit button -->
-          <button id="sub">Search Result</button>
+          <button class="sub" type="submit">Login</button>
+
+          <div class="register-link">
+            <p>Belum punya akun? <a href="https://wa.me/6288989061400">Registrasi disini</a></p>
+          </div>
         </form>
       </div>
     </main>
