@@ -32,22 +32,42 @@
         <!-- End Page Title -->
 
 
-        <!-- video-section -->
-        <section class="video-section">
-            <div class="bg-layer parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/images/background/video-bg.jpg);"></div>
+        <!-- new-section -->
+        <section class="news-section sec-pad">
             <div class="auto-container">
-                <div class="inner-box">
-                    <div class="sec-title light">
-                        <span class="sub-title">Cmapning That’s Right For You</span>
-                        <h2>Get Now Memorable Wonderful Outdoor Experiences</h2>
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-paket/paket_1.png') }}" alt=""></a></figure>
+                            </div>
+                        </div>
                     </div>
-                    <div class="video-btn">
-                        <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="lightbox-image" data-caption="" style="background-image: url(assets/images/shape/shape-7.png);"><i class="fas fa-play"></i></a>
+                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-paket/paket_2.png') }}" alt=""></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-paket/paket_3.png') }}" alt=""></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-paket/paket_4.png') }}" alt=""></a></figure>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- video-section end -->
+        <!-- new-section end -->
 
 
         <!-- main-footer -->
