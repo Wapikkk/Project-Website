@@ -2599,6 +2599,7 @@ div#mCSB_1_container {
 }
 
 .news-block-one .inner-box {
+    margin-top: 5px;
     position: relative;
     display: block;
 }

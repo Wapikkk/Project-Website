@@ -39,45 +39,28 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news-1.jpg" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">20 oct, 2021</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">2 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Get Ready for the Summer Camp</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-paket/paket_1.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news-2.jpg" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">19 oct, 2021</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">5 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Duis Laoreet Cursus Justo, sed</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-paket/paket_2.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="assets/images/news/news-3.jpg" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">18 oct, 2021</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">4 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Morbi nec Finibus mi Cras Risus</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-paket/paket_3.png') }}" alt=""></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-paket/paket_4.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>

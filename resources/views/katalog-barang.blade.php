@@ -38,180 +38,77 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/katalog-dummy.jpg') }}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">Rp 25.000</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">2 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Tenda Kapasitas 2-3 Orang Ultra Light Double Layer</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/10.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/katalog-dummy.jpg') }}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">Rp 25.000</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">5 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Tenda Kap 4 Double Layer</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/11.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/katalog-dummy.jpg') }}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">Rp 30.000</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">4 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Tenda Kap 5 Double Layer</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/12.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/katalog-dummy.jpg') }}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">Rp 40.000</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">4 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Tenda Kap 6-7 Double Layer</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/13.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/katalog-dummy.jpg') }}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">Rp 55.000</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">4 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Tenda Kap 8-10 Double Layer</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/14.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/katalog-dummy.jpg') }}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">Rp 90.000</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">4 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Tenda Kap 12 Exclusive</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/15.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/katalog-dummy.jpg') }}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">Rp 155.000</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">4 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Tenda Kap 15-20 Grand Dome</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/16.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/katalog-dummy.jpg') }}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">Rp 65.000</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">4 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Tenda Stan 2x2 M</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/17.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/katalog-dummy.jpg') }}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">Rp 80.000</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">4 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Tenda Stan 3x3 M</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/18.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/katalog-dummy.jpg') }}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">Rp 80.000</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">4 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Tenda Prisma/Pramuka 3x4 M</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/19.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/katalog-dummy.jpg') }}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">Rp 450.000</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">4 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Tenda Regu 4x6 M</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/katalog-dummy.jpg') }}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <span class="post-date">650.000</span>
-                                    <ul class="post-info clearfix">
-                                        <li><i class="far fa-user"></i><a href="blog-details.html">by Admin</a></li>
-                                        <li><i class="far fa-comments"></i><a href="blog-details.html">4 Comments</a></li>
-                                    </ul>
-                                    <h3><a href="blog-details.html">Tenda Pleton/Barak</a></h3>
-                                </div>
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/20.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
