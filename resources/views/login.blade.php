@@ -86,9 +86,8 @@
             <div class="col-md-12">
               <div class="textField">
                 <div class="fieldInner">
-                  <input type="password"
-                  placeholder="Password" required>
-                  <i class='fa-solid fa-lock'></i>
+                  <input type="password" placeholder="Password" id="login-password" name="password" required>
+                  <i class='fa fa-eye' id="eye-icon-login"></i>
                 </div>
               </div>
             </div>

@@ -315,8 +315,15 @@ main::before {
   gap: 20px;
   border: solid 2px transparent;
   transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  position: relative;
 }
 .fieldInner i {
+  position: absolute;
+  z-index: 2;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
   font-size: 16px;
   color: var(--text-color);
 }
@@ -326,6 +333,7 @@ main::before {
   height: 100%;
   border: 0;
   background-color: transparent;
+  padding-right: 40px;
 }
 ::placeholder,
 .fieldInner input,
