@@ -42,6 +42,6 @@ Route::get('/masuk', function(){
     return view('login');
 });
 
-Route::get('/masuk', function(){
+Route::get('/registrasi', function(){
     return view('registrasi');
 });

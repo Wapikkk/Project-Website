@@ -70,36 +70,54 @@
           c
         >
           <!-- heading -->
-          <h1 class="mainHeading">Login</h1>
+          <h1 class="mainHeading">Registrasi</h1>
           <div class="row">
             <!-- Form Start -->
             <div class="col-md-12">
               <div class="textField">
                 <div class="fieldInner">
                   <input
-                    type="text"
-                    placeholder="Email" required>
-                  <i class="fa-solid fa-user"></i>
+                    type="text" placeholder="Nama Lengkap" required>
                 </div>
               </div>
             </div>
             <div class="col-md-12">
               <div class="textField">
                 <div class="fieldInner">
-                  <input type="password"
-                  placeholder="Password" required>
-                  <i class='fa-solid fa-lock'></i>
+                  <input
+                    type="text" placeholder="Nomor Telepon" required>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="textField">
+                <div class="fieldInner">
+                  <input
+                    type="text" placeholder="Email" required>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="textField">
+                <div class="fieldInner">
+                  <input type="password" placeholder="Password" id="password" name="password" required>
+                  <i class="fa fa-eye" id="eye-icon-password"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="textField">
+                <div class="fieldInner">
+                  <input type="password" placeholder="Konfirmasi Password" id="confirm-password" name="confirm_password" required>
+                  <i class="fa fa-eye" id="eye-icon-confirm"></i>
                 </div>
               </div>
             </div>
           </div>
 
           <!-- Submit button -->
-          <button class="sub" type="submit">Masuk</button>
+          <button class="sub" type="submit">Registrasi</button>
 
-          <div class="register-link">
-            <p>Belum punya akun? <a href="https://wa.me/6288989061400">Registrasi disini</a></p>
-          </div>
         </form>
       </div>
     </main>
