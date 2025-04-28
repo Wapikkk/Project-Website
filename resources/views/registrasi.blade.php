@@ -98,7 +98,7 @@
           <button class="sub" type="submit">Masuk</button>
 
           <div class="register-link">
-            <p>Belum punya akun? <a href="">Registrasi disini</a></p>
+            <p>Belum punya akun? <a href="https://wa.me/6288989061400">Registrasi disini</a></p>
           </div>
         </form>
       </div>

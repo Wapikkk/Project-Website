@@ -330,7 +330,7 @@ main::before {
 ::placeholder,
 .fieldInner input,
 .fieldInner select {
-  font-size: 15px;
+  font-size: 16px;
   font-family: "Titillium Web";
   font-weight: bold;
   color: var(--text-color);
@@ -351,39 +351,6 @@ main::before {
   font-weight: 700;
   margin-left: 25px;
   margin-bottom: 15px;
-}
-
-.remember-forgot {
-  display: flex;
-  justify-content: space-between;
-  font-size: 16px;
-  font-weight: bold;
-  margin: -10px 0px 15px;
-}
-
-.remember-forgot label input {
-  margin-right: 3px;
-}
-
-.remember-forgot a {
-  position: relative;
-  color: #ff6f29;
-  text-decoration: none;
-}
-
-.remember-forgot a:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  height: 2px;
-  width: 0;
-  background: #ff6f29;
-  border-radius: 6px;
-  transition: width 0.3s ease;
-}
-
-.remember-forgot a:hover:before {
-  width: 100%;
 }
 
 .sub {

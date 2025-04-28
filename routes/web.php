@@ -4,6 +4,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\VacationController;
 use App\Models\Vacation;
 use Illuminate\Support\Facades\Route;
+use function PHPUnit\Framework\returnArgument;
 
 Route::get('/', function () {
     return view('welcome');
@@ -39,4 +40,8 @@ Route::get('/katalog-opentrip', function(){
 
 Route::get('/masuk', function(){
     return view('login');
+});
+
+Route::get('/masuk', function(){
+    return view('registrasi');
 });
