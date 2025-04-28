@@ -112,6 +112,13 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/26.png') }}" alt=""></a></figure>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
