@@ -1,6 +1,6 @@
 @extends ('master.app')
 
-@section('title', 'Home')
+@section('title', 'Katalog Paket')
 
 @section('content')
 

@@ -22,50 +22,57 @@ $(document).ready(function () {
   });
 
   // Efek eye-icon login password bagian login
-  document.getElementById('eye-icon-login').addEventListener('click', function(){
-    const passwordInput = document.getElementById('login-password');
-    const eyeIcon = document.getElementById('eye-icon-login');
-  
-    if (passwordInput.type == 'password') {
-      passwordInput.type = 'text';
-      eyeIcon.classList.remove('fa-eye');
-      eyeIcon.classList.add('fa-eye-slash');
-    } else {
-      passwordInput.type = 'password';
-      eyeIcon.classList.remove('fa-eye-slash');
-      eyeIcon.classList.add('fa-eye');
-    }
-  });
+  const eyeIconLogin = document.getElementById('eye-icon-login');
+  if (eyeIconLogin) {
+    eyeIconLogin.addEventListener('click', function() {
+      const passwordInput = document.getElementById('login-password');
+      if (passwordInput) {
+        if (passwordInput.type === 'password') {
+          passwordInput.type = 'text';
+          eyeIconLogin.classList.remove('fa-eye');
+          eyeIconLogin.classList.add('fa-eye-slash');
+        } else {
+          passwordInput.type = 'password';
+          eyeIconLogin.classList.remove('fa-eye-slash');
+          eyeIconLogin.classList.add('fa-eye');
+        }
+      }
+    });
+  }
 
-  // Efek eye-icon password bagian registrasi
-  document.getElementById('eye-icon-password').addEventListener('click', function(){
-    const passwordInput = document.getElementById('password');
-    const eyeIcon = document.getElementById('eye-icon-password');
+  const eyeIconPassword = document.getElementById('eye-icon-password');
+  if (eyeIconPassword) {
+    eyeIconPassword.addEventListener('click', function() {
+      const passwordInput = document.getElementById('password');
+      if (passwordInput) {
+        if (passwordInput.type === 'password') {
+          passwordInput.type = 'text';
+          eyeIconPassword.classList.remove('fa-eye');
+          eyeIconPassword.classList.add('fa-eye-slash');
+        } else {
+          passwordInput.type = 'password';
+          eyeIconPassword.classList.remove('fa-eye-slash');
+          eyeIconPassword.classList.add('fa-eye');
+        }
+      }
+    });
+  }
 
-    if (passwordInput.type == 'password') {
-      passwordInput.type = 'text';
-      eyeIcon.classList.remove('fa-eye');
-      eyeIcon.classList.add('fa-eye-slash');
-    } else {
-      passwordInput.type = 'password';
-      eyeIcon.classList.remove('fa-eye-slash');
-      eyeIcon.classList.add('fa-eye');
-    }
-  });
-
-  // Efek eye-icon konfirmasi password bagian registrasi
-  document.getElementById('eye-icon-confirm').addEventListener('click', function(){
-    const passwordInput = document.getElementById('confirm-password');
-    const eyeIcon = document.getElementById('eye-icon-confirm');
-
-    if (passwordInput.type == 'password') {
-      passwordInput.type = 'text';
-      eyeIcon.classList.remove('fa-eye');
-      eyeIcon.classList.add('fa-eye-slash');
-    } else {
-      passwordInput.type = 'password';
-      eyeIcon.classList.remove('fa-eye-slash');
-      eyeIcon.classList.add('fa-eye');
-    }
-  });
+  const eyeIconConfirm = document.getElementById('eye-icon-confirm');
+  if (eyeIconConfirm) {
+    eyeIconConfirm.addEventListener('click', function() {
+      const passwordInput = document.getElementById('confirm-password');
+      if (passwordInput) {
+        if (passwordInput.type === 'password') {
+          passwordInput.type = 'text';
+          eyeIconConfirm.classList.remove('fa-eye');
+          eyeIconConfirm.classList.add('fa-eye-slash');
+        } else {
+          passwordInput.type = 'password';
+          eyeIconConfirm.classList.remove('fa-eye-slash');
+          eyeIconConfirm.classList.add('fa-eye');
+        }
+      }
+    });
+  }
 });

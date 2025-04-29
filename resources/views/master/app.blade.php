@@ -101,7 +101,7 @@
                                                 <a href="{{ url('/katalog-barang') }}">Katalog Barang</a>
                                             </li>
                                             <li class="{{ request()->is('katalog-opentrip') ? 'active' : '' }}">
-                                                <a href="{{ url('/katalog-opentrip') }}">Katalog Opentrip</a>
+                                                <a href="{{ url('/katalog-trip') }}">Katalog Trip</a>
                                             </li>
                                             <li class="{{ request()->is('katalog-paket') ? 'active' : '' }}">
                                                 <a href="{{ url('/katalog-paket') }}">Katalog Paket</a>

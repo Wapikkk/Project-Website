@@ -147,7 +147,7 @@
                                             <div class="overlay-shape" style="background-image: url(assets/images/shape/shape-6.png);"></div>
                                             <i class="flaticon-adventurer"></i>
                                         </div>
-                                        <h3><a href="adventure.html">Open Trip</a></h3>
+                                        <h3><a href="{{ url ('katalog-opentrip') }}">Trip</a></h3>
                                         <p>Ingin menjelajah tanpa ribet? Gabung dalam Open Trip kami dan nikmati serunya perjalanan 
                                             bersama teman-teman baru dengan rute yang telah dikurasi oleh tim profesional kami.
                                         </p>

@@ -30,12 +30,8 @@ Route::get('/katalog-paket', function(){
     return view('katalog-paket');
 });
 
-Route::get('/katalog-barang', function(){
-    return view('katalog-barang');
-});
-
-Route::get('/katalog-opentrip', function(){
-    return view('katalog-opentrip');
+Route::get('/katalog-trip', function(){
+    return view('katalog-trip');
 });
 
 Route::get('/masuk', function(){
