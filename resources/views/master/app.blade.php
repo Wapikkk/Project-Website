@@ -108,7 +108,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="{{ request()->is('informasi-pemesanan') ? 'active' : '' }} dropdown"><a href="index.html">Informasi Pemesanan</a></li>
+                                    <li class="{{ request()->is('informasi-pemesanan') ? 'active' : '' }} dropdown"><a href="{{ url('informasi-pemesanan') }}">Informasi Pemesanan</a></li>
                                     <li class="{{ request()->is('rekomendasi-wisata') ? 'active' : '' }} dropdown"><a href="{{ url('/rekomendasi-wisata') }}">Rekomendasi Wisata</a></li>
                                 </ul>
                             </div>

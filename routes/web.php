@@ -34,6 +34,10 @@ Route::get('/katalog-trip', function(){
     return view('katalog-trip');
 });
 
+Route::get('/informasi-pemesanan', function(){
+    return view('informasi-pemesanan');
+});
+
 Route::get('/masuk', function(){
     return view('login');
 });
