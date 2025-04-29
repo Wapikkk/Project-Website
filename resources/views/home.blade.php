@@ -185,6 +185,48 @@
         </section>
         <!-- penawaran-spesial end -->
 
+        {{-- Our-Gallery --}}
+        <section class="gallery-section centred" id="galeri-kami">
+            <div class="auto-container">
+                <div class="sec-title">
+                    <span class="sub-title">Our Photoshots</span>
+                    <h2>Our Gallery</h2>
+                </div>
+                <div class="sortable-masonry">
+                    <div class="items-container row clearfix">
+                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column">
+                            <div class="gallery-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box"><a href="assets/images/gallery/gallery-1.jpg" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/gallery/gallery-1.jpg" alt=""></a></figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 masonry-item small-column">
+                            <div class="gallery-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box"><a href="assets/images/gallery/gallery-2.jpg" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/gallery/gallery-2.jpg" alt=""></a></figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column">
+                            <div class="gallery-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box"><a href="assets/images/gallery/gallery-3.jpg" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/gallery/gallery-3.jpg" alt=""></a></figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column">
+                            <div class="gallery-block-one">
+                                <div class="inner-box">
+                                    <figure class="image-box"><a href="assets/images/gallery/gallery-4.jpg" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/gallery/gallery-4.jpg" alt=""></a></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- Our-Gallery end --}}
 
         <!-- testimoni -->
         <section class="testimonial-section bg-color-2" id="testimoni">

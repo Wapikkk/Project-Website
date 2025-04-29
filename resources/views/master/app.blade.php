@@ -92,6 +92,7 @@
                                         <ul>
                                             <li><a href="#tentang-kami">Tentang Kami</a></li>
                                             <li><a href="#penawaran-spesial">Penawaran Spesial</a></li>
+                                            <li><a href="#galeri-kami">Galeri Kami</a></li>
                                             <li><a href="#testimoni">Testimoni</a></li>
                                         </ul>
                                     </li>

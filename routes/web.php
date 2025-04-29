@@ -15,14 +15,17 @@ Route::get('/', function () {
 //     return view('home');
 // });
 
+// Route untuk Beranda
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 // Route::get('/rekomendasi-wisata', function () {
 //     return view('rekomendasi-wisata');
 // });
 
+// Route untuk Rekomendasi Wisata
 Route::get('/rekomendasi-wisata', [VacationController::class, 'index'])->name('rekomendasi-wisata');
 
+// Route untuk Autentikasi Login dan Registrasi
 Route::get('/registrasi', [AuthenticationController::class, 'showRegisterForm',])->name('form.registrasi');
 Route::post('/registrasi', [AuthenticationController::class, 'register'])->name('registrasi');
 Route::get('/masuk', [AuthenticationController::class, 'showLoginForm'])->name('login');
