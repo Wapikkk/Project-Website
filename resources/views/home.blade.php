@@ -34,7 +34,7 @@
 
         <!-- about-section -->
         <section class="about-section bg-color-1" id="tentang-kami">
-            {{-- <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-4.png);"></div> --}}
+            {{-- <div class="pattern-layer" style="background-image: url({{ asset ('images/about-us.png') }})"></div> --}}
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-12">
@@ -112,7 +112,7 @@
 
         <!-- penawaran-spesial -->
         <section class="activities-section sec-pad" id="penawaran-spesial">
-            <div class="auto-container">
+            <div class="auto-container" >
                 <div class="upper-box centred">
                     <div class="sec-title">
                         <span class="sub-title">What We're Offering</span>
