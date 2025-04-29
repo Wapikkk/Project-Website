@@ -63,12 +63,8 @@
       <!-- container -->
       <div class="container">
         <!-- form -->
-        <form
-          class="revotForm fade-custom"
-          novalidate
-          onsubmit="return false"
-          c
-        >
+        <form class="revotForm fade-custom" action="{{ route('registrasi') }}" method="POST">
+          @csrf
           <!-- heading -->
           <h1 class="mainHeading">Registrasi</h1>
           <div class="row">
@@ -76,24 +72,36 @@
             <div class="col-md-12">
               <div class="textField">
                 <div class="fieldInner">
-                  <input
-                    type="text" placeholder="Nama Lengkap" required>
+                  <input type="text" placeholder="Nama Lengkap" required value="{{ old('name') }}">
+                  @error('name')
+                    <div class="invalid-feedback">
+                      {{ $message }}
+                    </div>
+                  @enderror
                 </div>
               </div>
             </div>
             <div class="col-md-12">
               <div class="textField">
                 <div class="fieldInner">
-                  <input
-                    type="text" placeholder="Nomor Telepon" required>
+                  <input type="text" placeholder="Nomor Telepon" required value="{{ old('phone') }}">
+                  @error('phone')
+                    <div class="invalid-feedback">
+                      {{ $message }}
+                    </div>
+                  @enderror
                 </div>
               </div>
             </div>
             <div class="col-md-12">
               <div class="textField">
                 <div class="fieldInner">
-                  <input
-                    type="text" placeholder="Email" required>
+                  <input type="text" placeholder="Email" required value="{{ old('email') }}">
+                  @error('email')
+                    <div class="invalid-feedback">
+                      {{ $message }}
+                    </div>
+                  @enderror
                 </div>
               </div>
             </div>
@@ -102,6 +110,11 @@
                 <div class="fieldInner">
                   <input type="password" placeholder="Password" id="password" name="password" required>
                   <i class="fa fa-eye" id="eye-icon-password"></i>
+                  @error('password')
+                    <div class="invalid-feedback">
+                      {{ $message }}
+                    </div>
+                  @enderror
                 </div>
               </div>
             </div>

@@ -63,22 +63,23 @@
       <!-- container -->
       <div class="container">
         <!-- form -->
-        <form
-          class="revotForm fade-custom"
-          novalidate
-          onsubmit="return false"
-          c
-        >
+        <form class="revotForm fade-custom" action="{{ route('login') }}" method="POST">
+          @csrf
           <!-- heading -->
           <h1 class="mainHeading">Login</h1>
+          @if ($errors->has('login_error'))
+            <div class="error-message">
+              <span> {{ $errors->first('login_error') }} </span>
+              <i class="fa-solid fa-exclamation-circle"></i>
+            </div>
+          @endif
           <div class="row">
             <!-- Form Start -->
+
             <div class="col-md-12">
               <div class="textField">
                 <div class="fieldInner">
-                  <input
-                    type="text"
-                    placeholder="Email" required>
+                  <input type="email" name="email" id="email" placeholder="Email" required value="{{ old('email') }}">
                   <i class="fa-solid fa-user"></i>
                 </div>
               </div>
@@ -86,7 +87,7 @@
             <div class="col-md-12">
               <div class="textField">
                 <div class="fieldInner">
-                  <input type="password" placeholder="Password" id="login-password" name="password" required>
+                  <input type="password" name="password" placeholder="Password" id="login-password" required>
                   <i class='fa fa-eye' id="eye-icon-login"></i>
                 </div>
               </div>

@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\VacationController;
+use App\Http\Controllers\AuthenticationController;
 use App\Models\Vacation;
 use Illuminate\Support\Facades\Route;
 use function PHPUnit\Framework\returnArgument;
@@ -21,6 +22,11 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 // });
 
 Route::get('/rekomendasi-wisata', [VacationController::class, 'index'])->name('rekomendasi-wisata');
+
+Route::get('/registrasi', [AuthenticationController::class, 'showRegisterForm',])->name('form.registrasi');
+Route::post('/registrasi', [AuthenticationController::class, 'register'])->name('registrasi');
+Route::get('/masuk', [AuthenticationController::class, 'showLoginForm'])->name('login');
+Route::post('/masuk', [AuthenticationController::class, 'login'])->name('login');
 
 Route::get('/katalog-barang', function(){
     return view('katalog-barang');
