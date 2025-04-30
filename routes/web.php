@@ -36,11 +36,12 @@ Route::get('/katalog-trip', function(){
     return view('katalog-trip');
 });
 
+// Route untuk Informasi Pemesanan
 Route::get('/informasi-pemesanan', function(){
     return view('informasi-pemesanan');
 });
 
-// Route Admin
+// Route untuk Admin
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
 })->name('admin.dashboard');
