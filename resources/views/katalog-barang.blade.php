@@ -38,84 +38,84 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/10.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-barang/10.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/11.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-barang/11.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/12.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-barang/12.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/13.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-barang/13.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/14.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-barang/14.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/15.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-barang/15.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/16.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-barang/16.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/17.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-barang/17.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/18.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-barang/18.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/19.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-barang/19.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/20.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-barang/20.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-barang/26.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-barang/trail.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
 
 
         <!-- main-footer -->
-        <footer class="main-footer">
+        {{-- <footer class="main-footer">
             <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-13.png);"></div>
             <div class="auto-container">
                 <div class="footer-top">
@@ -216,7 +216,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer> --}}
         <!-- main-footer end -->
         
 @endsection

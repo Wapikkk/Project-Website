@@ -6,16 +6,15 @@
 
         <!-- Page Title -->
         <section class="page-title centred">
-            <div class="bg-layer" style="background-image: url(assets/images/background/page-title.jpg);"></div>
+            <div class="bg-layer" style="background-image: url('{{ asset ('images/katalog-opentrip/background-trip.jpg') }}')"></div>
             <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-12.png);"></div>
             <div class="auto-container">
                 <div class="content-box">
                     <ul class="bread-crumb clearfix">
-                        <li><a href="index.html">Home</a></li>
-                        <li>Video Block</li>
+                        <li>Satu Tiket, Banyak Teman, Sejuta Kenangan</li>
                     </ul>
                     <div class="title">
-                        <h1>Elements</h1>
+                        <h1>Katalog Trip</h1>
                     </div>
                 </div>
             </div>
@@ -37,58 +36,51 @@
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-opentrip/ot_1.png') }}" alt=""></a></figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-opentrip/ot_2.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_2.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-opentrip/ot_3.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_3.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-opentrip/ot_4.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_4.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-opentrip/ot_5.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_5.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-opentrip/ot_6.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_6.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-opentrip/ot_7.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_7.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="blog-details.html"><img src="{{ asset ('images/katalog-opentrip/ot_8.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_8.png') }}" alt=""></a></figure>
                             </div>
                         </div>
                     </div>
