@@ -11,16 +11,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/home', function(){
-//     return view('home');
-// });
 
 // Route untuk Beranda
 Route::get('/home', [HomeController::class, 'index'])->name('home');
-
-// Route::get('/rekomendasi-wisata', function () {
-//     return view('rekomendasi-wisata');
-// });
 
 // Route untuk Rekomendasi Wisata
 Route::get('/rekomendasi-wisata', [VacationController::class, 'index'])->name('rekomendasi-wisata');
@@ -47,10 +40,13 @@ Route::get('/informasi-pemesanan', function(){
     return view('informasi-pemesanan');
 });
 
-Route::get('/masuk', function(){
-    return view('login');
-});
+// Route Admin
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+})->name('admin.dashboard');
 
-Route::get('/registrasi', function(){
-    return view('registrasi');
-});
+Route::get('/admin/blog', [VacationController::class, 'showBlogAdmin'])->name('admin.show.blog');
+Route::get('/admin/blog/{id}', [VacationController::class, 'showBlogDetail'])->name('admin.detail.blog');
+Route::get('/blog/add', [VacationController::class, 'showAddBlog'])->name('admin.add.blog');
+Route::post('/blog/add', [VacationController::class, 'store'])->name('admin.add.blog.store');
+Route::delete('/blog/{id}', [VacationController::class, 'destroy'])->name('admin.blog.delete');
