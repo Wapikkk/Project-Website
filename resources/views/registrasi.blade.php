@@ -72,7 +72,7 @@
             <div class="col-md-12">
               <div class="textField">
                 <div class="fieldInner">
-                  <input type="text" placeholder="Nama Lengkap" required value="{{ old('name') }}">
+                  <input type="text" name="name" id="name" placeholder="Nama Lengkap" required value="{{ old('name') }}">
                   @error('name')
                     <div class="invalid-feedback">
                       {{ $message }}
@@ -84,7 +84,7 @@
             <div class="col-md-12">
               <div class="textField">
                 <div class="fieldInner">
-                  <input type="text" placeholder="Nomor Telepon" required value="{{ old('phone') }}">
+                  <input type="text" name="phone" id="phone" placeholder="Nomor Telepon" required value="{{ old('phone') }}">
                   @error('phone')
                     <div class="invalid-feedback">
                       {{ $message }}
@@ -96,7 +96,7 @@
             <div class="col-md-12">
               <div class="textField">
                 <div class="fieldInner">
-                  <input type="text" placeholder="Email" required value="{{ old('email') }}">
+                  <input type="email" name="email" id="email" placeholder="Email" required value="{{ old('email') }}">
                   @error('email')
                     <div class="invalid-feedback">
                       {{ $message }}
@@ -123,6 +123,11 @@
                 <div class="fieldInner">
                   <input type="password" placeholder="Konfirmasi Password" id="confirm-password" name="confirm_password" required>
                   <i class="fa fa-eye" id="eye-icon-confirm"></i>
+                  @error('password_confirmation')
+                    <div class="invalid-feedback">
+                      {{ $message }}
+                    </div>
+                  @enderror
                 </div>
               </div>
             </div>

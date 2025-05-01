@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Auth;
-use Hash;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Http\Request;
 
@@ -19,11 +19,21 @@ class AuthenticationController extends Controller
     // proses registrasi
     public function register(Request $request)
     {
-        $request->validate([
+        $validatedData = $request->validate([
             'name' => 'required|string',
-            'phone' => 'required|string',
-            'email' => 'required|string|unique:users',
+            'phone' => 'required|string|regex:/^[0-9]{10,13}$/',
+            'email' => 'required|string|unique:users|email:dns',
             'password' => 'required|string|min:8|confirmed',
+        ], [
+            'name.required' => 'Nama wajib diisi.',
+            'phone.required' => 'Nomor telepon wajib diisi.',
+            'phone.regex' => 'Nomor telepon hanya berisi angka.',
+            'email.required' => 'Email wajib diisi.',
+            'email.email' => 'Email tidak valid.',
+            'email.unique' => 'Email sudah terdaftar.',
+            'password.required' => 'Password wajib diisi.',
+            'password.min' => 'Password minimal 8 karakter.',
+            'password.confirmed' => 'Password dan Konfirmasi password harus sama.',
         ]);
 
         $user = User::create([
@@ -35,7 +45,7 @@ class AuthenticationController extends Controller
 
         Auth::login($user);
 
-        return redirect('/home');
+        return redirect('/masuk')->with('succes', 'Registrasi berhasil, Silahkan login!');
     }
 
     // menampilkan form login
