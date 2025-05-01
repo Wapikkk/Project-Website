@@ -23,7 +23,7 @@ class AuthenticationController extends Controller
             'name' => 'required|string',
             'phone' => 'required|string|regex:/^[0-9]{10,13}$/',
             'email' => 'required|string|unique:users|email:dns',
-            'password' => 'required|string|min:8|confirmed',
+            'password' => 'required|string|min:8',
         ], [
             'name.required' => 'Nama wajib diisi.',
             'phone.required' => 'Nomor telepon wajib diisi.',
@@ -33,7 +33,6 @@ class AuthenticationController extends Controller
             'email.unique' => 'Email sudah terdaftar.',
             'password.required' => 'Password wajib diisi.',
             'password.min' => 'Password minimal 8 karakter.',
-            'password.confirmed' => 'Password dan Konfirmasi password harus sama.',
         ]);
 
         $user = User::create([

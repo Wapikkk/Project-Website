@@ -58,23 +58,23 @@ $(document).ready(function () {
     });
   }
 
-  const eyeIconConfirm = document.getElementById('eye-icon-confirm');
-  if (eyeIconConfirm) {
-    eyeIconConfirm.addEventListener('click', function() {
-      const passwordInput = document.getElementById('confirm-password');
-      if (passwordInput) {
-        if (passwordInput.type === 'password') {
-          passwordInput.type = 'text';
-          eyeIconConfirm.classList.remove('fa-eye');
-          eyeIconConfirm.classList.add('fa-eye-slash');
-        } else {
-          passwordInput.type = 'password';
-          eyeIconConfirm.classList.remove('fa-eye-slash');
-          eyeIconConfirm.classList.add('fa-eye');
-        }
-      }
-    });
-  }
+  // const eyeIconConfirm = document.getElementById('eye-icon-confirm');
+  // if (eyeIconConfirm) {
+  //   eyeIconConfirm.addEventListener('click', function() {
+  //     const passwordInput = document.getElementById('confirm-password');
+  //     if (passwordInput) {
+  //       if (passwordInput.type === 'password') {
+  //         passwordInput.type = 'text';
+  //         eyeIconConfirm.classList.remove('fa-eye');
+  //         eyeIconConfirm.classList.add('fa-eye-slash');
+  //       } else {
+  //         passwordInput.type = 'password';
+  //         eyeIconConfirm.classList.remove('fa-eye-slash');
+  //         eyeIconConfirm.classList.add('fa-eye');
+  //       }
+  //     }
+  //   });
+  // }
 
   
 });
