@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\InformationController;
 use App\Http\Controllers\VacationController;
 use App\Http\Controllers\AuthenticationController;
 use App\Models\Vacation;
@@ -37,9 +38,7 @@ Route::get('/katalog-trip', function(){
 });
 
 // Route untuk Informasi Pemesanan
-Route::get('/informasi-pemesanan', function(){
-    return view('informasi-pemesanan');
-});
+Route::get('/informasi-pemesanan/{category?}', [InformationController::class, 'show'])->name('information.show');
 
 // Route untuk Admin
 Route::get('/dashboard', function () {

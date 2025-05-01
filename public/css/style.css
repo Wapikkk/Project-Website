@@ -4087,6 +4087,30 @@ div#mCSB_1_container {
 .activities-sidebar .support-widget .inner-box h3 a:hover {
 }
 
+.activities-sidebar .support-widget .inner-box .contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.activities-sidebar .support-widget .inner-box .contact .contact-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.activities-sidebar .support-widget .inner-box .contact .contact-icon a i {
+    font-size: 2rem;
+    color: #3b251a;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.4s ease;
+}
+
+.activities-sidebar .support-widget .inner-box .contact .contact-icon a i:hover {
+    transform: scale(1.2);
+    color: #ff6f29;
+}
+
 .activities-details-content {
     position: relative;
     display: block;
@@ -4142,6 +4166,31 @@ div#mCSB_1_container {
     line-height: 40px;
     font-weight: 900;
     margin-bottom: 19px;
+}
+
+.activities-details-content .slide-content {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.category-item {
+    cursor: pointer;
+}
+
+.category-item:hover {
+    color: #ff6f29;
 }
 
 .activities-details-content .content-one .text p {

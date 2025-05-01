@@ -636,11 +636,46 @@
 		enableMasonry();
 		expertizeRoundCircle ();
 	});
-
-	
-
 })(window.jQuery);
 
+// public/js/scripts.js
+// public/js/scripts.js
+document.addEventListener('DOMContentLoaded', function () {
+    const categoryItems = document.querySelectorAll('.category-item');
+    const contentArea = document.getElementById('content-area');
+    const contentTitle = document.getElementById('content-title');
+    const contentText = document.getElementById('content-text');
+
+    // Ambil data dari atribut data-contents dan parse ke JSON
+    const contents = JSON.parse(contentArea.getAttribute('data-contents'));
+
+    categoryItems.forEach(item => {
+        item.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = this.getAttribute('data-target');
+
+            // Hapus class active dari semua item
+            categoryItems.forEach(i => i.classList.remove('current'));
+            // Tambahkan class active ke item yang diklik
+            this.classList.add('current');
+
+            // Hapus class slide-content untuk memulai animasi ulang
+            const lowerBox = contentArea.querySelector('.lower-box');
+            lowerBox.classList.remove('slide-content');
+
+            // Ganti konten
+            contentTitle.textContent = contents[target].title;
+            contentText.innerHTML = contents[target].paragraphs.map(p => `<p>${p}</p>`).join('');
+
+            // Tambahkan kembali class untuk memicu animasi
+            void lowerBox.offsetWidth; // Reset animasi
+            lowerBox.classList.add('slide-content');
+
+            // Update URL tanpa reload (opsional)
+            history.pushState(null, '', `/informasi-pemesanan/${target}`);
+        });
+    });
+});
 
 //preloader
     var winObj = $( window ),
