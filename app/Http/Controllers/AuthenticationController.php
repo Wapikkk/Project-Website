@@ -79,5 +79,5 @@ class AuthenticationController extends Controller
         ])->withInput([]);
     }
 
-    // proses logout (masih proses)
+    // proses logout 
 }

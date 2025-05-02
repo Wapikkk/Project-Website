@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\InformationController;
 use App\Http\Controllers\VacationController;
@@ -41,9 +42,7 @@ Route::get('/katalog-trip', function(){
 Route::get('/informasi-pemesanan/{category?}', [InformationController::class, 'show'])->name('information.show');
 
 // Route untuk Admin
-Route::get('/dashboard', function () {
-    return view('admin.dashboard');
-})->name('admin.dashboard');
+Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->middleware('admin')->name('admin.dashboard');
 
 Route::get('/admin/blog', [VacationController::class, 'showBlogAdmin'])->name('admin.show.blog');
 Route::get('/admin/blog/{id}', [VacationController::class, 'showBlogDetail'])->name('admin.detail.blog');
