@@ -71,7 +71,7 @@
 
 
         <!-- main-footer -->
-        <footer class="main-footer">
+        {{-- <footer class="main-footer">
             <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-13.png);"></div>
             <div class="auto-container">
                 <div class="footer-top">
@@ -161,7 +161,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer> --}}
         <!-- main-footer end -->
 
 @endsection
