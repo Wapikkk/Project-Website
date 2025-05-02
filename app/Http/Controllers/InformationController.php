@@ -12,25 +12,25 @@ class InformationController extends Controller
             'panduan-penyewaan' => [
                 'title' => 'Panduan Penyewaan',
                 'paragraphs' => [
-                    'ini panduan penyewaannya'
+                    'CIHUYYYYYY :D'
                 ]
             ],
             'sk-sewa-motor' => [
                 'title' => 'S&K Sewa Motor Trail',
                 'paragraphs' => [
-                    'ini panduan sewa motor trail'
+                    'CIHUYYYYYY :D'
                 ]
             ],
             'sk-sewa-paket' => [
                 'title' => 'S&K Sewa Paket',
                 'paragraphs' => [
-                    'ini panduan sewa paket'
+                    'CIHUYYYYYY :D'
                 ]
             ],
             'sk-member' => [
                 'title' => 'S&K Member',
                 'paragraphs' => [
-                    'ini panduan member'
+                    'CIHUYYYYYY :D'
                 ]
             ],
         ];

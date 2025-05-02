@@ -41,6 +41,7 @@ class AuthenticationController extends Controller
             'phone' => $request->phone,
             'email' => $request->email,
             'password' => Hash::make($request->password),
+            'role' => 'user',
         ]);
 
         Auth::login($user);
@@ -65,6 +66,11 @@ class AuthenticationController extends Controller
 
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
+
+            if (Auth::user()->role === 'admin') {
+                return redirect()->intended('/admin/dashboard');
+            }
+
             return redirect()->intended('/home');
         }
 

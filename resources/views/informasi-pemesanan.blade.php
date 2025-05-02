@@ -49,19 +49,19 @@
                             <div class="content-one centred" id="content-area" data-contents="{!! htmlspecialchars(json_encode([
                                 'panduan-penyewaan' => [
                                     'title' => 'Panduan Penyewaan',
-                                    'paragraphs' => ['ini panduan penyewaannya']
+                                    'paragraphs' => ['CIHUYYYYYY :D']
                                 ],
                                 'sk-sewa-motor' => [
                                     'title' => 'S&K Sewa Motor Trail',
-                                    'paragraphs' => ['ini panduan sewa motor trail']
+                                    'paragraphs' => ['CIHUYYYYYY :D']
                                 ],
                                 'sk-sewa-paket' => [
                                     'title' => 'S&K Sewa Paket',
-                                    'paragraphs' => ['ini panduan sewa paket']
+                                    'paragraphs' => ['CIHUYYYYYY :D']
                                 ],
                                 'sk-member' => [
                                     'title' => 'S&K Member',
-                                    'paragraphs' => ['ini panduan member']
+                                    'paragraphs' => ['CIHUYYYYYY :D']
                                 ]
                             ]), ENT_QUOTES, 'UTF-8') !!}">
                             <div class="content-one centred">
