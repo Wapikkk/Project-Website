@@ -141,4 +141,6 @@ $('#selectAll').on('change', function () {
   $('select[name="per_page"]').on("change", function () {
     window.location.href = "?per_page=" + this.value;
   });
+
+  
 })(jQuery);
