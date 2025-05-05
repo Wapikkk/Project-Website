@@ -14,22 +14,24 @@
                 </div>
                 <div class="card-body p-24">
                     @if (session('success'))
-                        <div class="alert alert-success">
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
                             {{ session('success') }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
                         </div>
                     @endif
 
                     @if ($errors->any())
-                        <div class="alert alert-danger">
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
                             <ul>
                                 @foreach ($errors->all() as $error)
                                     <li>{{ $error }}</li>
                                 @endforeach
                             </ul>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     @endif
 
-                    <form action="{{ route('admin.add.blog.store') }}" method="POST" class="d-flex flex-column gap-20" enctype="multipart/form-data">
+                    <form id="addBlogForm" action="{{ route('admin.add.blog.store') }}" method="POST" class="d-flex flex-column gap-20" enctype="multipart/form-data">
                         @csrf
                         <div>
                             <label class="form-label fw-bold text-neutral-900" for="title">Judul Blog: </label>
@@ -74,7 +76,7 @@
                             @enderror
                         </div>
                         
-                        <button type="submit" class="btn btn-primary-600 radius-8">Submit</button>
+                        <button type="button" class="btn btn-primary-600 radius-8 px-20 py-11" data-bs-toggle="modal" data-bs-target="#confirmAddModal">Submit</button>
                     </form>
                 </div>
             </div>
@@ -101,11 +103,31 @@
                                         </a>
                                     </h6>
                                     <p class="text-line-2 text-sm text-neutral-500 mb-0">
-                                        {{ Str::limit($latestBlog->description, 100) }}
+                                        {{ \Illuminate\Support\Str::limit($latestBlog->description, 100) }}
                                     </p>
                                 </div>
                             </div>
                         @endforeach
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Konfirmasi Tambah -->
+    <div class="modal fade" id="confirmAddModal" tabindex="-1" aria-labelledby="confirmAddModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body d-flex flex-wrap align-items-center text-center justify-content-center">
+                    <h5 class="mt-12">Konfirmasi Tambah Blog</h5>
+                    <h6 class="my-12">Apakah Anda yakin ingin menambahkan blog ini?</h6>
+                    <div class="row my-12">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-warning-600 radius-8 px-20 py-11" data-bs-dismiss="modal">Tidak</button>
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="btn btn-primary-600 radius-8 px-20 py-11" onclick="document.getElementById('addBlogForm').submit()">Ya</button>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -96,7 +96,7 @@
                                             <li><a href="#testimoni">Testimoni</a></li>
                                         </ul>
                                     </li>
-                                    <li class="{{ request()->is('katalog-barang', 'katalog-paket', 'katalog-opentrip') ? 'active' : '' }} dropdown"><a href="javascript:void(0)">Katalog</a>
+                                    <li class="{{ request()->is('katalog-barang', 'katalog-paket', 'katalog-trip') ? 'active' : '' }} dropdown"><a href="javascript:void(0)">Katalog</a>
                                         <ul>
                                             <li class="{{ request()->is('katalog-barang') ? 'active' : '' }}">
                                                 <a href="{{ url('/katalog-barang') }}">Katalog Barang</a>
@@ -124,12 +124,21 @@
                         <a href="https://wa.me/6288989061400" target="_blank" class="text-decoration-none text-white">
                             <i class="bi bi-whatsapp" style="font-size: 2rem; margin-right: 10px"></i>
                         </a>
-                        <a href="index.html" class="text-white">
-                            <i class="flaticon-shopping-cart" style="font-size: 2rem"></i>
-                        </a>
-                        <a href="{{ url ('/masuk') }}" class="text-white">
-                            <i class="bi bi-person-circle" style="font-size: 2rem;"></i>
-                        </a>
+                        @auth
+                            <a href="{{ url('/cart') }}" class="text-white">
+                                <i class="flaticon-shopping-cart" style="font-size: 2rem;"></i>
+                            </a>
+                            <form action="{{ route('logout') }}" method="POST" style="display: inline;">
+                                @csrf
+                                <button type="submit" class="btn p-0 text-white">
+                                    <i class="bi bi-box-arrow-right" style="font-size: 2rem;"></i>
+                                </button>
+                            </form>
+                        @else
+                            <a href="{{ url('/masuk') }}" class="text-white">
+                                <i class="bi bi-box-arrow-in-right" style="font-size: 2rem;"></i>
+                            </a>
+                        @endauth
                     </div>
                 </div>
             </div>
@@ -181,13 +190,22 @@
                         <div class="d-flex align-items-center ms-auto" style="gap: 50px;">
                             <a href="https://wa.me/6288989061400" target="_blank" class="text-decoration-none text-white">
                                 <i class="bi bi-whatsapp" style="font-size: 2rem; margin-right: 10px"></i>
-                            </a> 
-                            <a href="index.html" class="text-white">
-                                <i class="flaticon-shopping-cart" style="font-size: 2rem"></i>
                             </a>
-                            <a href="{{ url ('/masuk') }}" class="text-white">
-                                <i class="bi bi-person-circle" style="font-size: 2rem;"></i>
-                            </a>
+                            @auth
+                                <a href="{{ url('/cart') }}" class="text-white">
+                                    <i class="flaticon-shopping-cart" style="font-size: 2rem;"></i>
+                                </a>
+                                <form action="{{ route('logout') }}" method="POST" style="display: inline;">
+                                    @csrf
+                                    <button type="submit" class="btn p-0 text-white">
+                                        <i class="bi bi-box-arrow-right" style="font-size: 2rem;"></i>
+                                    </button>
+                                </form>
+                            @else
+                                <a href="{{ url('/masuk') }}" class="text-white">
+                                    <i class="bi bi-box-arrow-in-right" style="font-size: 2rem;"></i>
+                                </a>
+                            @endauth
                         </div>
                     </div>
                 </div>

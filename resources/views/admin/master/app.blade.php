@@ -83,10 +83,10 @@
         </a>
         <ul class="sidebar-submenu">
           <li>
-            <a href="blog.html"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Testimoni</a>
+            <a href="{{route('admin.show.review') }}"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Testimoni</a>
           </li>
           <li>
-            <a href="add-blog.html"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> Tambah Testimoni</a>
+            <a href="{{ route('admin.add.review') }}"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> Tambah Testimoni</a>
           </li>
         </ul>
       </li>
@@ -116,10 +116,13 @@
         </a>
       </li>
       <li>
-        <a href="pricing.html">
+        <a href="#" class="logout-link" data-form-id="logout-form-sidebar">
             <iconify-icon icon="lucide:power" class="menu-icon"></iconify-icon>
             <span>Keluar Akun</span> 
         </a>
+        <form id="logout-form-sidebar" action="{{ route('admin.logout') }}" method="POST" style="display: none;">
+          @csrf
+        </form>
       </li>
   </div>
 </aside>

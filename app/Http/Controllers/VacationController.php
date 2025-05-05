@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Vacation;
 use Illuminate\Http\Request;
-use Storage;
-use Str;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
 
 class VacationController extends Controller
 {

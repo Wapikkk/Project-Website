@@ -7,6 +7,7 @@ use Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Http\Request;
+use function PHPUnit\Framework\returnArgument;
 
 class AuthenticationController extends Controller
 {
@@ -53,6 +54,9 @@ class AuthenticationController extends Controller
 
     public function showLoginForm()
     {
+        if (Auth::check()) {
+            return redirect()->route('home');
+        }
         return view('login');
     }
 
@@ -80,4 +84,11 @@ class AuthenticationController extends Controller
     }
 
     // proses logout 
+    public function logout(Request $request)
+    {
+        Auth::logout();
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+        return redirect('/home')->with('succes', 'Anda telah logout');
+    }
 }

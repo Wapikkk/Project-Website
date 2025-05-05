@@ -70,6 +70,29 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="deleteModal{{ $blog->id }}" tabindex="-1" aria-labelledby="deleteModalLabel{{ $blog->id }}" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body d-flex flex-wrap align-items-center text-center justify-content-center">
+                    <h5 class="mt-12">Konfirmasi Hapus Blog</h5>
+                    <h6 class="my-12">Apakah Anda yakin ingin menghapus blog "{{ $blog->place }}" dari database?</h6>
+                    <div class="row my-12">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-warning-600 radius-8 px-20 py-11" data-bs-dismiss="modal">Tidak</button>
+                        </div>
+                        <div class="col-6">
+                            <form action="{{ route('admin.blog.delete', $blog->id) }}" method="POST">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-danger-600 radius-8 px-20 py-11">Ya</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 @endsection

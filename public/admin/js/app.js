@@ -130,5 +130,15 @@ $('#selectAll').on('change', function () {
       $('.no-items-found').show();
     }
   });
+
   // Remove Table Tr when click on remove btn end
+  $(".logout-link").on("click", function (e) {
+    e.preventDefault();
+    var formId = $(this).data("form-id");
+    $("#" + formId).submit();
+  });
+
+  $('select[name="per_page"]').on("change", function () {
+    window.location.href = "?per_page=" + this.value;
+  });
 })(jQuery);
