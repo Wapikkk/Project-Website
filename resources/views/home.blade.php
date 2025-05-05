@@ -197,35 +197,35 @@
                         <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column">
                             <div class="gallery-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><a href="assets/images/gallery/gallery-1.jpg" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset ('images/galeri/1.png') }}" alt=""></a></figure>
+                                    <figure class="image-box"><img src="{{ asset ('images/galeri/1.png') }}" alt=""></a></figure>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 masonry-item small-column">
                             <div class="gallery-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><a href="assets/images/gallery/gallery-2.jpg" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset ('images/galeri/2.png') }}" alt=""></a></figure>
+                                    <figure class="image-box"><img src="{{ asset ('images/galeri/2.png') }}" alt=""></a></figure>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column">
                             <div class="gallery-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><a href="assets/images/gallery/gallery-3.jpg" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset ('images/galeri/3.png') }}" alt=""></a></figure>
+                                    <figure class="image-box"><img src="{{ asset ('images/galeri/3.png') }}" alt=""></a></figure>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column">
                             <div class="gallery-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><a href="assets/images/gallery/gallery-4.jpg" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset ('images/galeri/4.png') }}" alt=""></a></figure>
+                                    <figure class="image-box"><img src="{{ asset ('images/galeri/4.png') }}" alt=""></a></figure>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 masonry-item small-column">
                             <div class="gallery-block-one">
                                 <div class="inner-box">
-                                    <figure class="image-box"><a href="assets/images/gallery/gallery-2.jpg" class="lightbox-image" data-fancybox="gallery"><img src="{{ asset ('images/galeri/5.png') }}" alt=""></a></figure>
+                                    <figure class="image-box"><img src="{{ asset ('images/galeri/5.png') }}" alt=""></a></figure>
                                 </div>
                             </div>
                         </div>
