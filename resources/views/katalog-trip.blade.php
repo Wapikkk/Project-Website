@@ -21,10 +21,8 @@
             <div class="media-partner">
                 <ul class="media-links clearfix">
                     <li><h6>Follow on social media</h6></li>
-                    <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                    <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.tiktok.com/@aloutdoor.id"><i class="bi bi-tiktok"></i></a></li>
+                    <li><a href="https://www.instagram.com/aloutdoor.id?igsh=MWM0NXR1dDZ1ZHF0eg=="><i class="bi bi-instagram"></i></a></li>
                 </ul>
             </div>
         </section>

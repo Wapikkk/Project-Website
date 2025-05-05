@@ -79,7 +79,7 @@
                 <div class="row clearfix">
                     <div class="col-12">
                         <div class="sec-title text-center">
-                            <span class="sub-title">Follow Us On</span>
+                            <span class="sub-title">Contact Us On</span>
                             <div class="row justify-content-center">
                                 <div class="col-auto">
                                     <a href="https://www.instagram.com/aloutdoor.id?igsh=MWM0NXR1dDZ1ZHF0eg==" target="_blank" class="text-decoration-none text-dark">

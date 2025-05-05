@@ -124,6 +124,9 @@
                         <a href="https://wa.me/6288989061400" target="_blank" class="text-decoration-none text-white">
                             <i class="bi bi-whatsapp" style="font-size: 2rem; margin-right: 10px"></i>
                         </a>
+                        <a href="mailto:aloutdoor.id@gmail.com" target="_blank" class="text-decoration-none text-white">
+                            <i class="bi bi-envelope-at" style="font-size: 2rem; margin-right: 10px;"></i>
+                        </a>
                         @auth
                             <a href="{{ url('/cart') }}" class="text-white">
                                 <i class="flaticon-shopping-cart" style="font-size: 2rem;"></i>
@@ -190,6 +193,9 @@
                         <div class="d-flex align-items-center ms-auto" style="gap: 50px;">
                             <a href="https://wa.me/6288989061400" target="_blank" class="text-decoration-none text-white">
                                 <i class="bi bi-whatsapp" style="font-size: 2rem; margin-right: 10px"></i>
+                            </a>
+                            <a href="mailto:aloutdoor.id@gmail.com" target="_blank" class="text-decoration-none text-white">
+                                <i class="bi bi-envelope-at" style="font-size: 2rem; margin-right: 10px;"></i>
                             </a>
                             @auth
                                 <a href="{{ url('/cart') }}" class="text-white">
