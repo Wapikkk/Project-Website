@@ -4203,6 +4203,10 @@ div#mCSB_1_container {
     margin-bottom: 0px;
 }
 
+#content-text p {
+    text-align: left;
+}
+
 .activities-details-content .content-one {
     margin-bottom: 60px;
 }
