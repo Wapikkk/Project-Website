@@ -26,7 +26,7 @@ class VacationSeeder extends Seeder
             ],
             [
                 'place' => 'Gunung Butak - Blitar',
-                'description' => 'Kalau kamu pendaki yang suka ketenangan dan ingin merasakan suasana hiking yang lebih sepi, Gunung Butak bisa jadi pilihan pas. Berada di perbatasan Malang dan Blitar, gunung ini punya jalur menantang tapi damai, jauh dari keramaian. Di puncak, kamu akan disambut sabana luas dan panorama 360 derajat yang luar biasa. Sunrise dari puncaknya juga jadi momen magis yang sayang untuk dilewatkan, namun suhunya bisa sangat dingin di malam hari, jadi siapkan perlengkapan camping lengkap. Cocok untuk me time atau quality time bareng sahabat pendaki.',
+                'description' => 'Kalau kamu pendaki yang suka ketenangan dan ingin merasakan suasana hiking yang lebih sepi, Gunung Butak bisa jadi pilihan tepat. Terletak di perbatasan Malang dan Blitar, gunung ini memiliki jalur menantang tapi tenang, jauh dari keramaian. Di puncaknya, kamu akan disambut sabana luas dan panorama 360 derajat yang memukau. Sunrise di sini sangat magis, namun suhu malam bisa ekstrem, jadi bawalah perlengkapan camping yang lengkap. Cocok untuk me time atau quality time bersama sahabat pendaki.',
                 'image' => 'img/gunung_butak.jpg',
             ],
             [

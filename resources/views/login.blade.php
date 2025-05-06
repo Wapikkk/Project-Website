@@ -68,7 +68,7 @@
           <!-- heading -->
           <h1 class="mainHeading">Login</h1>
           @if ($errors->has('login_error'))
-            <div class="error-message">
+            <div class="error-login-message">
               <span> {{ $errors->first('login_error') }} </span>
               <i class="fa-solid fa-exclamation-circle"></i>
             </div>

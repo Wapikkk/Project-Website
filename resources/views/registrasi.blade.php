@@ -152,6 +152,9 @@
             <!-- Submit button -->
             <button class="sub" type="submit">Registrasi</button>
 
+            <div class="login-link">
+              <p>Sudah punya akun? <a href="{{ url('masuk') }}">Login</a></p>
+            </div>
           </form>
         </div>
       </main>

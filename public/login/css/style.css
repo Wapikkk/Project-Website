@@ -299,6 +299,35 @@ main::before {
   text-align: center;
 }
 
+.error-login-message {
+  border-radius: 30px;
+  background-color: #f8d7da;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 25px;
+  border: solid 2px transparent;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 5px;
+  animation: fade-in 0.5s ease-in-out;
+}
+
+.error-login-message span {
+  font-size: 14px;
+  font-family: "Titillium Web";
+  font-weight: bold;
+  color: #721c24;
+}
+
+.error-login-message i {
+  font-size: 14px;
+  color: #721c24;
+}
+
 .error-message {
   border-radius: 30px;
   background-color: #f8d7da;
@@ -440,6 +469,36 @@ main::before {
 .register-link a:hover:before {
   width: 100%;
 }
+
+.login-link {
+  font-family: "Titillium Web";
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.login-link a {
+  position: relative;
+  color:  #ff6f29;
+  text-decoration: none;
+}
+
+.login-link a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: #ff6f29;
+  border-radius: 6px;
+  transition: width 0.3s ease;
+}
+
+.login-link a:hover:before {
+  width: 100%;
+}
+
 
 /* result */
 .resultHeading {
