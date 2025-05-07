@@ -1,5 +1,7 @@
 @extends('admin.master.app')
 
+@section('title', 'Detail Blog')
+
 @section('content')
 
 <div class="dashboard-main-body">

@@ -1,5 +1,7 @@
 @extends('admin.master.app')
 
+@section('title', 'Tambah Testimoni')
+
 @section('content')
 
 <div class="dashboard-main-body">
