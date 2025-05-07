@@ -34,7 +34,6 @@
 
         <!-- about-section -->
         <section class="about-section bg-color-1" id="tentang-kami">
-            {{-- <div class="pattern-layer" style="background-image: url({{ asset ('images/about-us.png') }})"></div> --}}
             <div class="auto-container">
                 <div class="row clearfix">
                     <div class="col-12">
