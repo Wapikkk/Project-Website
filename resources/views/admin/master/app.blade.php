@@ -44,12 +44,8 @@
   <button type="button" class="sidebar-close-btn">
     <iconify-icon icon="radix-icons:cross-2"></iconify-icon>
   </button>
-  <div>
-    <a href="index.html" class="sidebar-logo">
-      <img src="assets/images/logo.png" alt="site logo" class="light-logo">
-      <img src="assets/images/logo-light.png" alt="site logo" class="dark-logo">
-      <img src="assets/images/logo-icon.png" alt="site logo" class="logo-icon">
-    </a>
+  <div class="sidebar-logo">
+      <img src="{{ asset('admin/images/logo_aloutdoor.png') }}" alt="site logo" class="light-logo">
   </div>
   <div class="sidebar-menu-area">
     <ul class="sidebar-menu" id="sidebar-menu">
@@ -109,12 +105,12 @@
       </li>
 
       <li class="sidebar-menu-group-title">Akun</li> 
-      <li>
+      {{-- <li>
         <a href="pricing.html">
             <i class="ri-user-settings-line text-xl me-14 d-flex w-auto"></i>
             <span>Pengaturan Akun</span> 
         </a>
-      </li>
+      </li> --}}
       <li>
         <a href="#" class="logout-link" data-form-id="logout-form-sidebar">
             <iconify-icon icon="lucide:power" class="menu-icon"></iconify-icon>
@@ -143,11 +139,9 @@
             </div>
             <div class="col-auto">
             <div class="d-flex flex-wrap align-items-center gap-3">
-                <button type="button" data-theme-toggle class="w-40-px h-40-px bg-neutral-200 rounded-circle d-flex justify-content-center align-items-center"></button>
-
                 <div class="dropdown">
                 <button class="d-flex justify-content-center align-items-center rounded-circle" type="button" data-bs-toggle="dropdown">
-                    <img src="assets/images/user.png" alt="image" class="w-40-px h-40-px object-fit-cover rounded-circle">
+                    <img src="{{ asset('admin/images/logo_aloutdoor.png') }}" alt="image" class="w-40-px h-40-px object-fit-cover rounded-circle">
                 </button>
                 <div class="dropdown-menu to-top dropdown-menu-sm">
                     <div class="py-12 px-16 radius-8 bg-primary-50 mb-16 d-flex align-items-center justify-content-between gap-2">
