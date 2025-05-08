@@ -5,7 +5,7 @@
 @section('content')
 
 
-        <!-- banner-section -->
+        <!-- section banner -->
         <section class="banner-section centred">
             <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
                 <div class="slide-item">
@@ -29,10 +29,10 @@
                 </div>
             </div>
         </section>
-        <!-- banner-section end -->
+        <!-- akhir section banner -->
 
 
-        <!-- about-section -->
+        <!-- section tentang kami -->
         <section class="about-section bg-color-1" id="tentang-kami">
             <div class="auto-container">
                 <div class="row clearfix">
@@ -106,7 +106,7 @@
                 </div>
             </div>
         </section>
-        <!-- tentang-kami end -->
+        <!-- akhir tentang kami -->
 
 
         <!-- penawaran-spesial -->
@@ -182,9 +182,9 @@
                 </div>
             </div>
         </section>
-        <!-- penawaran-spesial end -->
+        <!-- akhir penawaran spesial -->
 
-        {{-- Our-Gallery --}}
+        {{-- galeri kami --}}
         <section class="gallery-section centred" id="galeri-kami">
             <div class="auto-container">
                 <div class="sec-title">
@@ -232,7 +232,7 @@
                 </div>
             </div>
         </section>
-        {{-- Our-Gallery end --}}
+        {{-- akhir galeri kami --}}
 
         <!-- testimoni -->
         <section class="testimonial-section bg-color-2" id="testimoni">
@@ -304,7 +304,7 @@
                 </div>
             </div>
         </section>
-        <!-- testimoni end -->
+        <!-- akhir testimoni -->
 
 
 @endsection

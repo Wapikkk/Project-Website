@@ -113,62 +113,6 @@
                                     </div>
                                 </div>
                             </div>
-                            {{-- <div class="content-two">
-                                <div class="row clearfix">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                                        <figure class="image-box"><img src="assets/images/resource/activities-13.jpg" alt=""></figure>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12 text-column">
-                                        <div class="text-inner">
-                                            <h2>Services Benefits</h2>
-                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                                            <ul class="list-style-one clearfix">
-                                                <li>Refresing to get such a personal touch.</li>
-                                                <li>Duis aute irure dolor in in voluptate.</li>
-                                                <li>Velit esse cillum eu fugiat pariatur.</li>
-                                                <li>Duis aute irure dolor in in voluptate.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> --}}
-                            {{-- <div class="content-three">
-                                <ul class="accordion-box">
-                                    <li class="accordion block active-block">
-                                        <div class="acc-btn active">
-                                            <div class="icon-outer"></div>
-                                            <h5>Interdum et malesuada fames ac ante ipsum</h5>
-                                        </div>
-                                        <div class="acc-content current">
-                                            <div class="text">
-                                                <p>Suspendisse finibus urna mauris, vitae consequat quam vel. Vestibulum leo ligula, vit commodo nisl Sed luctus venenatis pellentesque.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="accordion block">
-                                        <div class="acc-btn">
-                                            <div class="icon-outer"></div>
-                                            <h5>Maecenas condimentum sollicitudin ligula,</h5>
-                                        </div>
-                                        <div class="acc-content">
-                                            <div class="text">
-                                                <p>Suspendisse finibus urna mauris, vitae consequat quam vel. Vestibulum leo ligula, vit commodo nisl Sed luctus venenatis pellentesque.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="accordion block">
-                                        <div class="acc-btn">
-                                            <div class="icon-outer"></div>
-                                            <h5>Duis rhoncus orci ut metus rhoncus</h5>
-                                        </div>
-                                        <div class="acc-content">
-                                            <div class="text">
-                                                <p>Suspendisse finibus urna mauris, vitae consequat quam vel. Vestibulum leo ligula, vit commodo nisl Sed luctus venenatis pellentesque.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div> --}}
                         </div>
                     </div>
                 </div>

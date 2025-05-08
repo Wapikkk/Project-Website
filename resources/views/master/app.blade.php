@@ -31,7 +31,7 @@
 </head>
 
 
-<!-- page wrapper -->
+<!-- halaman pembungkus -->
 <body>
 
     <div class="boxed_wrapper">
@@ -66,10 +66,10 @@
                 </div>
             </div>
         </div>
-        <!-- preloader end -->
+        <!-- akhir preloader -->
 
 
-        <!-- main header -->
+        <!-- header utama -->
         <header class="main-header header-style-one" id="beranda">
             <div class="header-lower d-flex align-items-center justify-content-between py-0">
                 <div class="logo">
@@ -79,7 +79,7 @@
                 </div>
                 <div class="outer-box d-flex align-items-center justify-content-between w-100">
                     <div class="menu-area">
-                        <!--Mobile Navigation Toggler-->
+                        <!-- navigasi mobile -->
                         <div class="mobile-nav-toggler">
                             <i class="icon-bar"></i>
                             <i class="icon-bar"></i>
@@ -146,7 +146,7 @@
                 </div>
             </div>
 
-            <!--sticky Header-->
+            <!--sticky header-->
             <div class="sticky-header">
                 <div class="header-lower d-flex align-items-center justify-content-between">
                     <div class="logo">
@@ -156,33 +156,40 @@
                     </div>
                     <div class="outer-box d-flex align-items-center justify-content-between w-100">
                         <div class="menu-area">
-                            <!--Mobile Navigation Toggler-->
+                            <!-- navigasi mobile -->
                             <div class="mobile-nav-toggler">
                                 <i class="icon-bar"></i>
                                 <i class="icon-bar"></i>
                                 <i class="icon-bar"></i>
                             </div>
                             <nav class="main-menu navbar-expand-md navbar-light">
-                                {{-- <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="#beranda">Beranda</a>
+                                        <li class="{{ request()->is('home') ? 'active' : '' }} dropdown"><a href="{{ url ('/home') }}">Beranda</a>
                                             <ul>
-                                                <li><a href="#penawaran-spesial">Penawaran Spesial</a></li>
                                                 <li><a href="#tentang-kami">Tentang Kami</a></li>
+                                                <li><a href="#penawaran-spesial">Penawaran Spesial</a></li>
+                                                <li><a href="#galeri-kami">Galeri Kami</a></li>
                                                 <li><a href="#testimoni">Testimoni</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="index.html">Katalog</a>
+                                        <li class="{{ request()->is('katalog-barang', 'katalog-paket', 'katalog-trip') ? 'active' : '' }} dropdown"><a href="javascript:void(0)">Katalog</a>
                                             <ul>
-                                                <li><a href="activities.html">Katalog Barang</a></li>
-                                                <li><a href="climbing.html">Katalog Opentrip</a></li>
-                                                <li><a href="adventure.html">Katalog Paket</a></li>
+                                                <li class="{{ request()->is('katalog-barang') ? 'active' : '' }}">
+                                                    <a href="{{ url('/katalog-barang') }}">Katalog Barang</a>
+                                                </li>
+                                                <li class="{{ request()->is('katalog-opentrip') ? 'active' : '' }}">
+                                                    <a href="{{ url('/katalog-trip') }}">Katalog Trip</a>
+                                                </li>
+                                                <li class="{{ request()->is('katalog-paket') ? 'active' : '' }}">
+                                                    <a href="{{ url('/katalog-paket') }}">Katalog Paket</a>
+                                                </li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="index.html">Informasi Pemesanan</a></li>
-                                        <li class="dropdown"><a href="{{ url('/rekomendasi-wisata') }}">Rekomendasi Wisata</a></li>
+                                        <li class="{{ request()->is('informasi-pemesanan') ? 'active' : '' }} dropdown"><a href="{{ url('informasi-pemesanan') }}">Informasi Pemesanan</a></li>
+                                        <li class="{{ request()->is('rekomendasi-wisata') ? 'active' : '' }} dropdown"><a href="{{ url('/rekomendasi-wisata') }}">Rekomendasi Wisata</a></li>
                                     </ul>
-                                </div> --}}
+                                </div>
                             </nav>
                         </div>
                         <div class="outer-box d flex- align-items-center w100">
@@ -217,18 +224,13 @@
                 </div>
             </div>
 
-        <!-- main-header end -->
+        <!-- akhir menu utama -->
 
-        <!-- Mobile Menu  -->
+        <!-- menu mobile  -->
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><i class="fas fa-times"></i></div>
-
-            <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
-                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-            </nav>
-        </div><!-- End Mobile Menu -->
+        </div><!-- akhir menu mobile -->
 
         @yield('content')
 
@@ -249,5 +251,5 @@
     <!-- main-js -->
     <script src="{{asset ('js/script.js')}}"></script>
 
-</body><!-- End of .page_wrapper -->
+</body><!-- akhir halaman pembungkus -->
 </html>
