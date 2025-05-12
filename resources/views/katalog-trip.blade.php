@@ -33,55 +33,15 @@
         <section class="news-section sec-pad">
             <div class="auto-container">
                 <div class="row clearfix">
+                    @foreach ($catalogs as $catalog)
                     <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                         <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_2.png') }}" alt=""></a></figure>
+                                <figure class="image-box"><img src="{{ asset ($catalog->image) }}" alt=""></a></figure>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_3.png') }}" alt=""></a></figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_4.png') }}" alt=""></a></figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_5.png') }}" alt=""></a></figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_6.png') }}" alt=""></a></figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_7.png') }}" alt=""></a></figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="{{ asset ('images/katalog-opentrip/ot_8.png') }}" alt=""></a></figure>
-                            </div>
-                        </div>
-                    </div>
+                    </div>    
+                    @endforeach
                 </div>
             </div>
         </section>
