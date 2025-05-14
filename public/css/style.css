@@ -2623,12 +2623,10 @@ div#mCSB_1_container {
 .news-block-one .inner-box .lower-content {
     position: relative;
     display: block;
-    border: 1px solid #e3dcd9;
-    border-top: none;
     padding: 41px 40px 36px 40px;
 }
 
-.news-block-one .inner-box .lower-content:before {
+/* .news-block-one .inner-box .lower-content:before {
     position: absolute;
     content: "";
     width: 100%;
@@ -2641,7 +2639,7 @@ div#mCSB_1_container {
 
 .news-block-one .inner-box:hover .lower-content:before {
     transform: scale(1, 1);
-}
+} */
 
 .news-block-one .inner-box .lower-content .post-date {
     position: absolute;
