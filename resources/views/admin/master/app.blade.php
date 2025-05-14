@@ -105,12 +105,6 @@
       </li>
 
       <li class="sidebar-menu-group-title">Akun</li> 
-      {{-- <li>
-        <a href="pricing.html">
-            <i class="ri-user-settings-line text-xl me-14 d-flex w-auto"></i>
-            <span>Pengaturan Akun</span> 
-        </a>
-      </li> --}}
       <li>
         <a href="#" class="logout-link" data-form-id="logout-form-sidebar">
             <iconify-icon icon="lucide:power" class="menu-icon"></iconify-icon>
