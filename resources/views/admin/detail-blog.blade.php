@@ -14,7 +14,9 @@
     <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-24">
         <h6 class="fw-semibold mb-0">Detail Blog</h6>
         <ul class="d-flex align-items-center gap-2">
-            <button type="button" class="btn rounded-pill btn-primary-600 radius-8 px-16 py-9">Edit</button>
+            <button type="button" class="btn rounded-pill btn-primary-600 radius-8 px-16 py-9">
+                <a href="{{ route('admin.edit.blog', $blog->id) }}" class="text-white decoration-none">Edit</a>
+            </button>
             <form action="{{ route('admin.blog.delete', $blog->id) }}" method="POST" onsubmit="return confirm('Apakah Anda yakin ingin menghapus blog ini?');">
                 @csrf
                 @method('DELETE')

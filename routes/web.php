@@ -43,6 +43,8 @@ Route::prefix('admin')->middleware('admin')->group(function () {
     Route::prefix('blog')->group(function () {
         Route::get('/', [VacationController::class, 'showBlogAdmin'])->name('admin.show.blog');
         Route::get('/detail/{id}', [VacationController::class, 'showBlogDetail'])->name('admin.detail.blog');
+        Route::get('edit/{id}', [VacationController::class, 'showEditBlog'])->name('admin.edit.blog');
+        Route::put('update/{id}', [VacationController::class, 'update'])->name('admin.edit.blog.store');
         Route::get('/tambah', [VacationController::class, 'showAddBlog'])->name('admin.add.blog');
         Route::post('/tambah', [VacationController::class, 'store'])->name('admin.add.blog.store');
         Route::delete('/detail/{id}', [VacationController::class, 'destroy'])->name('admin.blog.delete');
