@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CatalogController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\InformationController;
 use App\Http\Controllers\VacationController;
@@ -23,17 +24,9 @@ Route::get('/masuk', [AuthenticationController::class, 'showLoginForm'])->name('
 Route::post('/masuk', [AuthenticationController::class, 'login'])->name('login');
 Route::post('/logout', [AuthenticationController::class, 'logout'])->name('logout');
 
-Route::get('/katalog-barang', function(){
-    return view('katalog-barang');
-});
-
-Route::get('/katalog-paket', function(){
-    return view('katalog-paket');
-});
-
-Route::get('/katalog-trip', function(){
-    return view('katalog-trip');
-});
+Route::get('/katalog-barang', [CatalogController::class, 'showBarangCatalog'])->name('katalog-barang');
+Route::get('/katalog-paket', [CatalogController::class, 'showPaketCatalog'])->name('katalog-paket');
+Route::get('/katalog-trip', [CatalogController::class, 'showTripCatalog'])->name('katalog-trip');
 
 // Route untuk Informasi Pemesanan
 Route::get('/informasi-pemesanan/{category?}', [InformationController::class, 'show'])->name('information.show');
@@ -45,6 +38,8 @@ Route::prefix('admin')->middleware('admin')->group(function () {
     Route::prefix('blog')->group(function () {
         Route::get('/', [VacationController::class, 'showBlogAdmin'])->name('admin.show.blog');
         Route::get('/detail/{id}', [VacationController::class, 'showBlogDetail'])->name('admin.detail.blog');
+        Route::get('edit/{id}', [VacationController::class, 'showEditBlog'])->name('admin.edit.blog');
+        Route::put('update/{id}', [VacationController::class, 'update'])->name('admin.edit.blog.store');
         Route::get('/tambah', [VacationController::class, 'showAddBlog'])->name('admin.add.blog');
         Route::post('/tambah', [VacationController::class, 'store'])->name('admin.add.blog.store');
         Route::delete('/detail/{id}', [VacationController::class, 'destroy'])->name('admin.blog.delete');
