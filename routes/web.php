@@ -10,11 +10,6 @@ use App\Models\Vacation;
 use Illuminate\Support\Facades\Route;
 use function PHPUnit\Framework\returnArgument;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-
 // Route untuk Beranda
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
@@ -63,4 +58,9 @@ Route::prefix('admin')->middleware('admin')->group(function () {
     });
 
     Route::post('/logout', [AdminController::class, 'logout'])->name('admin.logout');
+});
+
+
+Route::get('/', function () {
+    return view('welcome');
 });
