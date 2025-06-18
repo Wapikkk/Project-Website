@@ -38,7 +38,7 @@
             </div>
 
             <div class="mb-24">
-                <label for="image" class="form-label">Gambar (Opsional)</label>
+                <label for="image" class="form-label">Gambar</label>
                 <input type="file" name="image" id="image" class="form-control">
                 @if ($blog->image)
                     <div class="mt-16">

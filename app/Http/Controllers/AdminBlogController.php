@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Blog;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\File;
 
 class AdminBlogController extends Controller
 {
@@ -13,8 +14,7 @@ class AdminBlogController extends Controller
         $blog = Blog::findOrFail($id);
         return view('admin.edit-blog', compact('blog'));
     }
-
-    public funcion update (Request $request, $id)
+    public function update (Request $request, $id)
     {
         $request->validate([
             'place' => 'required|string|max:255',
