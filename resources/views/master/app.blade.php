@@ -76,7 +76,7 @@
                                             <li class="{{ request()->is('katalog-barang') ? 'active' : '' }}">
                                                 <a href="{{ url('/katalog-barang') }}">Katalog Barang</a>
                                             </li>
-                                            <li class="{{ request()->is('katalog-opentrip') ? 'active' : '' }}">
+                                            <li class="{{ request()->is('katalog-trip') ? 'active' : '' }}">
                                                 <a href="{{ url('/katalog-trip') }}">Katalog Trip</a>
                                             </li>
                                             <li class="{{ request()->is('katalog-paket') ? 'active' : '' }}">
