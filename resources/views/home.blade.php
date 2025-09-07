@@ -96,7 +96,7 @@
                                     </a>
                                 </div>
                                 <div class="col-auto">
-                                    <a href="https://wa.me/6288989061400" target="_blank" class="text-decoration-none text-dark">
+                                    <a href="https://wa.me/6285124414442" target="_blank" class="text-decoration-none text-dark">
                                         <i class="bi bi-whatsapp mx-2" style="font-size: 2rem"></i>
                                     </a>
                                 </div>

@@ -15259,6 +15259,32 @@ body.modal-open .dashboard-main{
   background-color: #486cea;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .modal-logout .modal-dialog {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 767px) {
+  .modal-logout .modal-dialog {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .modal-logout .modal-content {
+    padding: 20px;
+  }
+
+  .modal-logout .modal-body p {
+    font-size: 16px;
+  } 
+
+  .modal-logout .modal-footer .btn {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
 @media (min-width: 1650px) {
   .sidebar-menu li a {
     font-size: 1rem;
