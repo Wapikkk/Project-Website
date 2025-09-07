@@ -15209,6 +15209,56 @@ td.fc-header-center {
   font-size: 0.875rem;
 }
 
+body.modal-open .dashboard-main{
+  overflow: hidden; 
+}
+
+.modal-logout .modal-dialog {
+  max-width: 400px !important;
+}
+
+.modal-logout .modal-content{
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.modal-logout .modal-body{
+  padding: 10px 0;
+}
+
+.modal-logout .modal-body p{
+  font-weight: 700;
+  font-size: 18px;
+  color: #333;
+}
+
+.modal-logout .modal-footer{
+  border-top: none;
+  padding: 0;
+  justify-content: center;
+  gap: 12px;
+}
+
+.modal-logout .modal-footer .btn {
+  flex-grow: 1;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+}
+
+.modal-logout .btn-secondary{
+  background-color: #facc15;
+}
+
+.modal-logout .btn-danger {
+  background-color: #486cea;
+}
+
 @media (min-width: 1650px) {
   .sidebar-menu li a {
     font-size: 1rem;
