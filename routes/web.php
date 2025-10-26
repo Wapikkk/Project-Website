@@ -52,6 +52,8 @@ Route::prefix('admin')->middleware('admin')->group(function () {
         Route::delete('/detail/{id}', [ReviewController::class, 'destroy'])->name('admin.review.delete');
     });
 
+    Route::get('/katalog', [CatalogController::class, 'showAdminCatalog'])->name('admin.show.katalog');
+
     Route::post('/logout', [AdminController::class, 'logout'])->name('admin.logout');
 });
 

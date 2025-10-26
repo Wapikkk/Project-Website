@@ -21,4 +21,12 @@ class CatalogController extends Controller
         $catalogs = Katalog::where('category', 'paket')->get();
         return view('katalog-barang',compact('catalogs'));
     }
+
+    public function showAdminCatalog(){
+        $allCatalogs = Katalog::orderBy('created_at', 'desc')->get();
+        $barangCatalogs = Katalog::where('category', 'barang')->get();
+        $tripCatalogs = Katalog::where('category', 'trip')->get();
+        $paketCatalogs = Katalog::where('category', 'paket')->get();
+        return view('admin.catalog', compact('allCatalogs', 'barangCatalogs', 'tripCatalogs', 'paketCatalogs'));
+    }
 }

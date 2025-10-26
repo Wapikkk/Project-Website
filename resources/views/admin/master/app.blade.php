@@ -74,22 +74,11 @@
           </li>
         </ul>
       </li>
-      <li class="dropdown">
-        <a href="javascript:void(0)">
+      <li>
+        <a href="{{ route(name: 'admin.show.katalog') }}">
             <iconify-icon icon="solar:gallery-wide-linear" class="menu-icon"></iconify-icon>
             <span>Katalog</span> 
         </a>
-        <ul class="sidebar-submenu">
-          <li>
-            <a href="blog.html"><i class="ri-circle-fill circle-icon text-primary-600 w-auto"></i> Katalog Barang</a>
-          </li>
-          <li>
-            <a href="add-blog.html"><i class="ri-circle-fill circle-icon text-info-main w-auto"></i> Katalog Opentrip</a>
-          </li>
-          <li>
-            <a href="add-blog.html"><i class="ri-circle-fill circle-icon text-warning-main w-auto"></i> Katalog Paket</a>
-          </li>
-        </ul>
       </li>
 
       <li class="sidebar-menu-group-title">Akun</li> 
