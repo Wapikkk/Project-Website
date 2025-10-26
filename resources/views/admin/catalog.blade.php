@@ -6,7 +6,7 @@
 
     <div class="dashboard-main-body">
         <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-24">
-            <h6 class="fw-semibold mb-0">Gallery</h6>
+            <h6 class="fw-semibold mb-0">Daftar Katalog</h6>
             <ul class="d-flex align-items-center gap-2">
                 <li class="fw-medium">
                     <a href="{{ route('admin.dashboard') }}" class="d-flex align-items-center gap-1 hover-text-primary">
@@ -15,7 +15,7 @@
                     </a>
                 </li>
                 <li>-</li>
-                <li class="fw-medium">Gallery</li>
+                <li class="fw-medium">Daftar Katalog</li>
             </ul>
         </div>
 
