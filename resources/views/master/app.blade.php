@@ -90,16 +90,26 @@
                                     <li class="{{ request()->is('rekomendasi-wisata') ? 'active' : '' }}">
                                         <a href="{{ url('/rekomendasi-wisata') }}">Rekomendasi Wisata</a>
                                     </li>
+                                    <li class="d-md-none">
+                                        <a href="https://wa.me/6285124414442" target="_blank">
+                                            <i class="bi bi-whatsapp" style="font-size: 2rem;"></i>
+                                        </a>
+                                    </li>
+                                    <li class="d-md-none">
+                                        <a href="mailto:aloutdoor.id@gmail.com" target="_blank">
+                                            <i class="bi bi-envelope-at" style="font-size: 2rem;"></i>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>
                     </div>
                     <div class="d-flex align-items-center ms-auto" style="gap: 50px;">
-                        <a href="https://wa.me/6285124414442" target="_blank" class="text-decoration-none text-white">
-                            <i class="bi bi-whatsapp" style="font-size: 2rem; margin-right: 10px"></i>
+                        <a href="https://wa.me/6285124414442" target="_blank" class="text-decoration-none text-white d-none d-md-none me-4">
+                            <i class="bi bi-whatsapp" style="font-size: 2rem;"></i>
                         </a>
-                        <a href="mailto:aloutdoor.id@gmail.com" target="_blank" class="text-decoration-none text-white">
-                            <i class="bi bi-envelope-at" style="font-size: 2rem; margin-right: 10px;"></i>
+                        <a href="mailto:aloutdoor.id@gmail.com" target="_blank" class="text-decoration-none text-white d-none d-md-none me-4">
+                            <i class="bi bi-envelope-at" style="font-size: 2rem;"></i>
                         </a>
                         @auth
                             <a href="{{ url('/cart') }}" class="text-white">
@@ -107,7 +117,7 @@
                             </a>
                             <form action="{{ route('logout') }}" method="POST" style="display: inline;">
                                 @csrf
-                                <button type="submit" class="btn p-0 text-white">
+                                <button type="submit" class="btn p-0 text-white ms-3">
                                     <i class="bi bi-box-arrow-right" style="font-size: 2rem;"></i>
                                 </button>
                             </form>
@@ -122,7 +132,7 @@
 
             <!-- Sticky Header -->
             <div class="sticky-header">
-                <div class="header-lower d-flex align-items-center justify-content-between py-0">
+                <div class="header-lower d-flex align-items-center justify-content-between">
                     <div class="logo d-none d-md-block">
                         <a href="{{ route('home') }}">
                             <img src="{{ asset('images/logo_aloutdoor.png') }}" alt="logo" style="height: 70px;">
@@ -140,12 +150,12 @@
                             </nav>
                         </div>
                         <div class="d-flex align-items-center ms-auto" style="gap: 50px;">
-                            <a href="https://wa.me/6285124414442" target="_blank" class="text-decoration-none text-white">
+                            {{-- <a href="https://wa.me/6285124414442" target="_blank" class="text-decoration-none text-white">
                                 <i class="bi bi-whatsapp" style="font-size: 2rem; margin-right: 10px"></i>
                             </a>
                             <a href="mailto:aloutdoor.id@gmail.com" target="_blank" class="text-decoration-none text-white">
                                 <i class="bi bi-envelope-at" style="font-size: 2rem; margin-right: 10px;"></i>
-                            </a>
+                            </a> --}}
                             @auth
                                 <a href="{{ url('/cart') }}" class="text-white">
                                     <i class="flaticon-shopping-cart" style="font-size: 2rem;"></i>
